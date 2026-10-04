@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "case_start": "2025-10-20T06:00:00+00:00",
+  "predator": {
+    "phone": "+919742218890",
+    "ig_handle": "swim_coach_rk",
+    "ig_display_name": "R. Kumar | Swim Coach",
+    "wa_aliases": [
+      "Coach RK",
+      "Swim Coach",
+      "RK Sir"
+    ]
+  },
+  "kids": [
+    {
+      "name": "Aisha",
+      "age": 11,
+      "phone": "+919742210001",
+      "ig_handle": "aisha_art11",
+      "whatsapp": true,
+      "instagram": true
+    },
+    {
+      "name": "Neha",
+      "age": 12,
+      "phone": "+919742210002",
+      "ig_handle": "hoopstar_neha12",
+      "whatsapp": true,
+      "instagram": true
+    },
+    {
+      "name": "Kiran",
+      "age": 13,
+      "phone": "+919742210003",
+      "ig_handle": null,
+      "whatsapp": true,
+      "instagram": false
+    },
+    {
+      "name": "Meera",
+      "age": 11,
+      "phone": "+919742210004",
+      "ig_handle": "meera_dance11",
+      "whatsapp": false,
+      "instagram": true
+    }
+  ],
+  "call_escalation_day": 9,
+  "exif_leak_image": "img_0004.jpg",
+  "hash_flagged_images": [
+    "img_0012.jpg",
+    "img_0026.jpg",
+    "img_0040.jpg"
+  ],
+  "phash_reference_image": "img_0012.jpg",
+  "phash_variant_images": [
+    "img_0012_variant_a.jpg",
+    "img_0012_variant_b.jpg"
+  ],
+  "artifact_counts": {
+    "whatsapp": 339,
+    "instagram": 90,
+    "call_log": 62,
+    "browser_history": 200,
+    "images": 47,
+    "total": 738
+  }
+}

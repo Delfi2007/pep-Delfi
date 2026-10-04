@@ -1,0 +1,347 @@
+{
+  "description": "Evaluation on 600 synthetic modern-style chats from phrase pool B (150 grooming-pattern, 450 benign incl. adult-dating hard negatives). PAN12-only models never saw synthetic data; *_aug models were trained on PAN12 + pool A, whose phrase templates are disjoint from pool B.",
+  "results": {
+    "tfidf_lr": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.4949,
+        "pr_auc": 0.3019
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.7333,
+        "precision": 0.3333,
+        "recall": 0.0667,
+        "f1": 0.1111,
+        "f0.5": 0.1852,
+        "confusion_matrix": {
+          "tn": 430,
+          "fp": 20,
+          "fn": 140,
+          "tp": 10
+        },
+        "roc_auc": 0.4949,
+        "pr_auc": 0.3019
+      },
+      "t1": 0.995,
+      "stage2_instigator_accuracy": 0.9533
+    },
+    "tfidf_svm": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.4908,
+        "pr_auc": 0.2935
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.4908,
+        "pr_auc": 0.2935
+      },
+      "t1": 0.9,
+      "stage2_instigator_accuracy": 0.9533
+    },
+    "tfidf_cnb": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.2817,
+        "precision": 0.0482,
+        "recall": 0.1,
+        "f1": 0.0651,
+        "f0.5": 0.0538,
+        "confusion_matrix": {
+          "tn": 154,
+          "fp": 296,
+          "fn": 135,
+          "tp": 15
+        },
+        "roc_auc": 0.0959,
+        "pr_auc": 0.147
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.6267,
+        "precision": 0.0488,
+        "recall": 0.0267,
+        "f1": 0.0345,
+        "f0.5": 0.0418,
+        "confusion_matrix": {
+          "tn": 372,
+          "fp": 78,
+          "fn": 146,
+          "tp": 4
+        },
+        "roc_auc": 0.0959,
+        "pr_auc": 0.147
+      },
+      "t1": 0.2,
+      "stage2_instigator_accuracy": 0.9933
+    },
+    "char_lr": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.8155,
+        "pr_auc": 0.7424
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.79,
+        "precision": 1.0,
+        "recall": 0.16,
+        "f1": 0.2759,
+        "f0.5": 0.4878,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 126,
+          "tp": 24
+        },
+        "roc_auc": 0.8155,
+        "pr_auc": 0.7424
+      },
+      "t1": 0.999,
+      "stage2_instigator_accuracy": 0.9667
+    },
+    "behavioral_hgb": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.5081,
+        "pr_auc": 0.5375
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.5417,
+        "precision": 0.2792,
+        "recall": 0.5267,
+        "f1": 0.3649,
+        "f0.5": 0.3081,
+        "confusion_matrix": {
+          "tn": 246,
+          "fp": 204,
+          "fn": 71,
+          "tp": 79
+        },
+        "roc_auc": 0.5081,
+        "pr_auc": 0.5375
+      },
+      "t1": 0.98,
+      "stage2_instigator_accuracy": 0.94
+    },
+    "distilbert": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.7517,
+        "precision": 1.0,
+        "recall": 0.0067,
+        "f1": 0.0132,
+        "f0.5": 0.0325,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 149,
+          "tp": 1
+        },
+        "roc_auc": 0.4598,
+        "pr_auc": 0.4642
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.31,
+        "precision": 0.1827,
+        "recall": 0.5067,
+        "f1": 0.2686,
+        "f0.5": 0.2095,
+        "confusion_matrix": {
+          "tn": 110,
+          "fp": 340,
+          "fn": 74,
+          "tp": 76
+        },
+        "roc_auc": 0.4598,
+        "pr_auc": 0.4642
+      },
+      "t1": 0.998,
+      "stage2_instigator_accuracy": 1.0
+    },
+    "ensemble": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.4424,
+        "pr_auc": 0.4442
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.51,
+        "precision": 0.241,
+        "recall": 0.4467,
+        "f1": 0.3131,
+        "f0.5": 0.2655,
+        "confusion_matrix": {
+          "tn": 239,
+          "fp": 211,
+          "fn": 83,
+          "tp": 67
+        },
+        "roc_auc": 0.4424,
+        "pr_auc": 0.4442
+      },
+      "t1": 0.99,
+      "stage2_instigator_accuracy": 0.9933
+    },
+    "tfidf_cnb_aug": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.5483,
+        "precision": 0.1582,
+        "recall": 0.1867,
+        "f1": 0.1713,
+        "f0.5": 0.1632,
+        "confusion_matrix": {
+          "tn": 301,
+          "fp": 149,
+          "fn": 122,
+          "tp": 28
+        },
+        "roc_auc": 0.2948,
+        "pr_auc": 0.2682
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.6533,
+        "precision": 0.1979,
+        "recall": 0.1267,
+        "f1": 0.1545,
+        "f0.5": 0.1779,
+        "confusion_matrix": {
+          "tn": 373,
+          "fp": 77,
+          "fn": 131,
+          "tp": 19
+        },
+        "roc_auc": 0.2948,
+        "pr_auc": 0.2682
+      },
+      "t1": 0.4,
+      "stage2_instigator_accuracy": 0.9867
+    },
+    "tfidf_lr_aug": {
+      "at_tuned_t1": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.75,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "f0.5": 0.0,
+        "confusion_matrix": {
+          "tn": 450,
+          "fp": 0,
+          "fn": 150,
+          "tp": 0
+        },
+        "roc_auc": 0.6086,
+        "pr_auc": 0.4588
+      },
+      "at_0.5": {
+        "n": 600,
+        "positives": 150,
+        "accuracy": 0.78,
+        "precision": 0.7812,
+        "recall": 0.1667,
+        "f1": 0.2747,
+        "f0.5": 0.4496,
+        "confusion_matrix": {
+          "tn": 443,
+          "fp": 7,
+          "fn": 125,
+          "tp": 25
+        },
+        "roc_auc": 0.6086,
+        "pr_auc": 0.4588
+      },
+      "t1": 0.99,
+      "stage2_instigator_accuracy": 0.9867
+    }
+  }
+}

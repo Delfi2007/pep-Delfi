@@ -1,0 +1,16 @@
+train=53,561 val=13,366 test=155,128
+[tfidf_lr] trained in 12.0s
+[tfidf_lr] tuned t1=0.995 t2=0.8 val F0.5=0.8421
+[tfidf_lr] TEST author: P=0.9124 R=0.4921 F1=0.6394 F0.5=0.7793 acc=0.9994
+[tfidf_svm] trained in 12.2s
+[tfidf_svm] tuned t1=0.9 t2=0.9 val F0.5=0.8791
+[tfidf_svm] TEST author: P=0.8675 R=0.5157 F1=0.6469 F0.5=0.7634 acc=0.9993
+[tfidf_cnb] trained in 9.7s
+[tfidf_cnb] tuned t1=0.2 t2=0.98 val F0.5=0.8586
+[tfidf_cnb] TEST author: P=0.9053 R=0.6024 F1=0.7234 F0.5=0.8226 acc=0.9995
+[char_lr] trained in 45.9s
+[char_lr] tuned t1=0.999 t2=0.7 val F0.5=0.8046
+[char_lr] TEST author: P=0.9149 R=0.5079 F1=0.6532 F0.5=0.7885 acc=0.9994
+[behavioral_hgb] trained in 29.9s
+[behavioral_hgb] tuned t1=0.98 t2=0.98 val F0.5=0.6
+[behavioral_hgb] TEST author: P=0.7788 R=0.3189 F1=0.4525 F0.5=0.6045 acc=0.9991

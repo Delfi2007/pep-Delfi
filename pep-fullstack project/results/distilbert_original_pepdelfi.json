@@ -1,0 +1,77 @@
+{
+  "model": "distilbert",
+  "thresholds": {
+    "t1_stage1": 0.998,
+    "t2_stage2": 0.98
+  },
+  "validation_author_level": {
+    "n": 21443,
+    "positives": 27,
+    "accuracy": 0.9994,
+    "precision": 0.8947,
+    "recall": 0.6296,
+    "f1": 0.7391,
+    "f0.5": 0.8252,
+    "confusion_matrix": {
+      "tn": 21414,
+      "fp": 2,
+      "fn": 10,
+      "tp": 17
+    },
+    "roc_auc": 0.9257,
+    "pr_auc": 0.7007
+  },
+  "test_stage1_conversation": {
+    "n": 155128,
+    "positives": 3737,
+    "accuracy": 0.9846,
+    "precision": 0.9912,
+    "recall": 0.3629,
+    "f1": 0.5312,
+    "f0.5": 0.7362,
+    "confusion_matrix": {
+      "tn": 151379,
+      "fp": 12,
+      "fn": 2381,
+      "tp": 1356
+    },
+    "roc_auc": 0.9937,
+    "pr_auc": 0.8518
+  },
+  "test_stage2_predator_vs_victim": {
+    "n": 5624,
+    "positives": 3737,
+    "accuracy": 0.9122,
+    "precision": 0.949,
+    "recall": 0.917,
+    "f1": 0.9328,
+    "f0.5": 0.9425,
+    "confusion_matrix": {
+      "tn": 1703,
+      "fp": 184,
+      "fn": 310,
+      "tp": 3427
+    },
+    "roc_auc": 0.9649,
+    "pr_auc": 0.9785
+  },
+  "test_final_author_level_PAN12": {
+    "n": 218702,
+    "positives": 254,
+    "accuracy": 0.9996,
+    "precision": 0.9655,
+    "recall": 0.6614,
+    "f1": 0.785,
+    "f0.5": 0.8842,
+    "confusion_matrix": {
+      "tn": 218442,
+      "fp": 6,
+      "fn": 86,
+      "tp": 168
+    },
+    "roc_auc": 0.933,
+    "pr_auc": 0.8393
+  },
+  "train_seconds": 469,
+  "total_seconds": 1076
+}

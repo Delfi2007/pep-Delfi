@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+/*
+ * ACPIA design tokens — "calm, light investigation console, Apple system idiom".
+ * See memory/acpia-ui-design-spec.md for the full spec this encodes.
+ */
+:root {
+  --canvas: #f2f2f7;
+  --surface: #ffffff;
+  --separator: #e5e5ea;
+
+  --label-primary: #1c1c1e;
+  --label-secondary: #6e6e73;
+  --label-tertiary: #8e8e93;
+
+  --accent-blue: #007aff;
+  --accent-amber: #ff9f0a;
+  --accent-red: #ff3b30;
+  /* systemGreen / systemYellow. Reserved for the investigator's own
+   * verdict on a lead (confirm / flag) — a decision the officer made,
+   * which is a different class of thing from evidence the system
+   * derived, and reads faster with a conventional colour attached. */
+  --accent-green: #34c759;
+  --accent-yellow: #ffcc00;
+  /* Entity-kind colours for the graph. systemPurple / systemIndigo,
+   * chosen so the four node kinds stay distinguishable at 16px against
+   * both canvases — this is categorical encoding, not decoration. */
+  --accent-purple: #af52de;
+  --accent-indigo: #5e5ce6;
+
+  color-scheme: light;
+
+  --radius-card: 16px;
+  --radius-control: 12px;
+
+  --shadow-panel: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-separator: var(--separator);
+
+  --color-label-primary: var(--label-primary);
+  --color-label-secondary: var(--label-secondary);
+  --color-label-tertiary: var(--label-tertiary);
+
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-amber: var(--accent-amber);
+  --color-accent-red: var(--accent-red);
+  --color-accent-green: var(--accent-green);
+  --color-accent-yellow: var(--accent-yellow);
+  --color-accent-purple: var(--accent-purple);
+  --color-accent-indigo: var(--accent-indigo);
+
+  --radius-card: var(--radius-card);
+  --radius-control: var(--radius-control);
+
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), "SF Mono", ui-monospace, "Cascadia Code",
+    monospace;
+}
+
+/*
+ * Theme resolution, in the order the cascade reads it:
+ *
+ *   1. no data-theme  -> follow the OS (the media query below)
+ *   2. data-theme=dark  -> dark, regardless of the OS
+ *   3. data-theme=light -> light, regardless of the OS
+ *
+ * The media query is scoped with :not([data-theme="light"]) so that an
+ * explicit light choice still wins on a machine set to dark — without
+ * that guard the OS preference would silently override the user's own
+ * selection, which is the classic theme-toggle bug.
+ *
+ * The dark values are duplicated rather than shared via a class: the two
+ * selectors have to be separate rules for the specificity to work out,
+ * and eight literal lines are easier to reason about than the indirection
+ * that would avoid them.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --canvas: #000000;
+    --surface: #1c1c1e;
+    --separator: #38383a;
+
+    --label-primary: #f2f2f7;
+    --label-secondary: #98989d;
+    --label-tertiary: #6e6e73;
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --canvas: #000000;
+  --surface: #1c1c1e;
+  --separator: #38383a;
+
+  --label-primary: #f2f2f7;
+  --label-secondary: #98989d;
+  --label-tertiary: #6e6e73;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* Theme changes shouldn't strobe. Transition only the properties that
+ * actually carry the theme, and skip it entirely for anyone who's asked
+ * for reduced motion. */
+body,
+body * {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body * {
+    transition: none;
+  }
+}
+
+body {
+  background: var(--canvas);
+  color: var(--label-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+/* Native apps don't show chrome scrollbars -- scrolling still works via
+ * trackpad/wheel/keyboard, the bar itself just doesn't clutter the UI. */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* old Edge */
+}
+*::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/new Edge */
+}

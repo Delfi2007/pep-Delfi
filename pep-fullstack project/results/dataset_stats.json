@@ -1,0 +1,158 @@
+{
+  "name": "PAN 2012 Sexual Predator Identification",
+  "source": "https://zenodo.org/records/3713280",
+  "task_page": "https://pan.webis.de/clef12/pan12-web/sexual-predator-identification.html",
+  "notes": [
+    "Predator conversations are between convicted offenders and adult volunteer decoys (Perverted-Justice) posing as minors \u2014 no real child is involved.",
+    "Negatives include ordinary chats and adult sexual chats (hard negatives).",
+    "English only; 2000s-era chat style.",
+    "Raw text is kept out of the repository and is never served by the API."
+  ],
+  "splits": [
+    {
+      "split": "train",
+      "conversations": 53561,
+      "conversations_with_predator": 1625,
+      "positive_rate_pct": 3.034,
+      "authors": 79144,
+      "predators": 115,
+      "predator_rate_pct": 0.145,
+      "messages": 721144,
+      "messages_per_conversation_median": 4.0,
+      "messages_per_conversation_mean": 13.46
+    },
+    {
+      "split": "validation",
+      "conversations": 13366,
+      "conversations_with_predator": 391,
+      "positive_rate_pct": 2.925,
+      "authors": 21443,
+      "predators": 27,
+      "predator_rate_pct": 0.126,
+      "messages": 182463,
+      "messages_per_conversation_median": 4.0,
+      "messages_per_conversation_mean": 13.65
+    },
+    {
+      "split": "test (official)",
+      "conversations": 155128,
+      "conversations_with_predator": 3737,
+      "positive_rate_pct": 2.409,
+      "authors": 218702,
+      "predators": 254,
+      "predator_rate_pct": 0.116,
+      "messages": 2058781,
+      "messages_per_conversation_median": 4.0,
+      "messages_per_conversation_mean": 13.27
+    }
+  ],
+  "messages_per_conversation": {
+    "with_predator": [
+      {
+        "bin": "1",
+        "count": 592
+      },
+      {
+        "bin": "2",
+        "count": 221
+      },
+      {
+        "bin": "3\u20134",
+        "count": 156
+      },
+      {
+        "bin": "5\u20139",
+        "count": 127
+      },
+      {
+        "bin": "10\u201319",
+        "count": 96
+      },
+      {
+        "bin": "20\u201349",
+        "count": 252
+      },
+      {
+        "bin": "50\u201399",
+        "count": 286
+      },
+      {
+        "bin": "100\u2013199",
+        "count": 245
+      },
+      {
+        "bin": "200+",
+        "count": 41
+      }
+    ],
+    "without_predator": [
+      {
+        "bin": "1",
+        "count": 6697
+      },
+      {
+        "bin": "2",
+        "count": 2423
+      },
+      {
+        "bin": "3\u20134",
+        "count": 31279
+      },
+      {
+        "bin": "5\u20139",
+        "count": 9882
+      },
+      {
+        "bin": "10\u201319",
+        "count": 2362
+      },
+      {
+        "bin": "20\u201349",
+        "count": 7864
+      },
+      {
+        "bin": "50\u201399",
+        "count": 3081
+      },
+      {
+        "bin": "100\u2013199",
+        "count": 1319
+      },
+      {
+        "bin": "200+",
+        "count": 4
+      }
+    ]
+  },
+  "authors_per_conversation": [
+    {
+      "bin": "1",
+      "count": 12773
+    },
+    {
+      "bin": "2",
+      "count": 45741
+    },
+    {
+      "bin": "3",
+      "count": 2754
+    },
+    {
+      "bin": "4",
+      "count": 1502
+    },
+    {
+      "bin": "5\u20139",
+      "count": 3066
+    },
+    {
+      "bin": "10+",
+      "count": 1091
+    }
+  ],
+  "conversations_per_predator": {
+    "mean": 14.2,
+    "median": 7.0,
+    "max": 182
+  }
+}

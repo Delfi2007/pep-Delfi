@@ -1,0 +1,250 @@
+[
+  {
+    "id": "S1",
+    "title": "Two classmates \u2014 homework",
+    "category": "benign",
+    "expected": "low risk",
+    "messages": [
+      [
+        "ria_k",
+        "did u finish the maths worksheet"
+      ],
+      [
+        "arjun_07",
+        "almost, question 6 is so confusing"
+      ],
+      [
+        "ria_k",
+        "its the one with fractions right? divide top and bottom by 4"
+      ],
+      [
+        "arjun_07",
+        "ohhh ok that works thanks"
+      ],
+      [
+        "ria_k",
+        "np. are you coming to football practice tmrw"
+      ],
+      [
+        "arjun_07",
+        "yes coach said 4pm"
+      ],
+      [
+        "ria_k",
+        "cool see you there"
+      ]
+    ]
+  },
+  {
+    "id": "S2",
+    "title": "Gaming friends",
+    "category": "benign",
+    "expected": "low risk",
+    "messages": [
+      [
+        "pixelfox",
+        "gg that last round was crazy"
+      ],
+      [
+        "nova_plays",
+        "lol i cant believe we won with 1 hp"
+      ],
+      [
+        "pixelfox",
+        "same time tomorrow?"
+      ],
+      [
+        "nova_plays",
+        "cant, family dinner. saturday?"
+      ],
+      [
+        "pixelfox",
+        "saturday works. bring the new strategy"
+      ],
+      [
+        "nova_plays",
+        "haha ok"
+      ]
+    ]
+  },
+  {
+    "id": "S3",
+    "title": "Parent and teenager \u2014 pickup",
+    "category": "benign",
+    "expected": "low risk",
+    "messages": [
+      [
+        "mum_anita",
+        "Where are you? Practice ended 20 min ago"
+      ],
+      [
+        "dev_s",
+        "sorry phone was on silent, waiting near the gate"
+      ],
+      [
+        "mum_anita",
+        "Ok I'm 5 minutes away. Did you eat lunch?"
+      ],
+      [
+        "dev_s",
+        "yes. can we stop for stationery"
+      ],
+      [
+        "mum_anita",
+        "Sure, the shop near the bus stop"
+      ]
+    ]
+  },
+  {
+    "id": "S4",
+    "title": "Two adults arranging a date (hard negative)",
+    "category": "hard negative",
+    "expected": "should stay low \u2014 adults, no age probing or secrecy",
+    "messages": [
+      [
+        "sam_r",
+        "had a really nice time talking yesterday"
+      ],
+      [
+        "leena_m",
+        "me too! you're funny"
+      ],
+      [
+        "sam_r",
+        "want to meet for coffee this weekend?"
+      ],
+      [
+        "leena_m",
+        "sure, saturday afternoon? the cafe on MG road"
+      ],
+      [
+        "sam_r",
+        "perfect. I'll text you when I'm leaving"
+      ],
+      [
+        "leena_m",
+        "see you then"
+      ]
+    ]
+  },
+  {
+    "id": "S5",
+    "title": "Grooming pattern \u2014 trust, secrecy, platform move",
+    "category": "grooming pattern",
+    "expected": "the adult account should rank as the instigator",
+    "messages": [
+      [
+        "coach_vik",
+        "great match today, you were the best on the team"
+      ],
+      [
+        "meera_12",
+        "thanks!! i was so nervous"
+      ],
+      [
+        "coach_vik",
+        "what year were you born? you talk like someone much older"
+      ],
+      [
+        "meera_12",
+        "im in 8th std"
+      ],
+      [
+        "coach_vik",
+        "girls in 8th usually aren't this smart"
+      ],
+      [
+        "coach_vik",
+        "lets move to insta dms, this chat is slow"
+      ],
+      [
+        "meera_12",
+        "ok"
+      ],
+      [
+        "coach_vik",
+        "dont mention me to your mum and dad, they'll get the wrong idea. just between you and me"
+      ],
+      [
+        "meera_12",
+        "ok i won't tell anyone"
+      ],
+      [
+        "coach_vik",
+        "is anybody else at your house in the evenings?"
+      ]
+    ]
+  },
+  {
+    "id": "S6",
+    "title": "Grooming pattern \u2014 photo request and meeting",
+    "category": "grooming pattern",
+    "expected": "the adult account should rank as the instigator",
+    "messages": [
+      [
+        "skyline_99",
+        "your profile pic is adorable, what age are you"
+      ],
+      [
+        "tara.x",
+        "14"
+      ],
+      [
+        "skyline_99",
+        "you could pass for 18. post me a selfie, just for me"
+      ],
+      [
+        "tara.x",
+        "why"
+      ],
+      [
+        "skyline_99",
+        "just want to see you. wipe these messages after ok"
+      ],
+      [
+        "skyline_99",
+        "which area is your house in? i can come get you after classes"
+      ],
+      [
+        "tara.x",
+        "i dont know"
+      ],
+      [
+        "skyline_99",
+        "your friends will never get you the way i do"
+      ]
+    ]
+  },
+  {
+    "id": "S7",
+    "title": "Peer conversation that echoes risky words",
+    "category": "hard negative",
+    "expected": "should stay low-to-moderate: two friends discussing a safety talk",
+    "messages": [
+      [
+        "aisha_r",
+        "the police lady at school said never send pics to strangers"
+      ],
+      [
+        "neha_j",
+        "yeah and if someone says keep it a secret tell a teacher"
+      ],
+      [
+        "aisha_r",
+        "also if someone asks are you home alone dont answer"
+      ],
+      [
+        "neha_j",
+        "my brother got a message like that on a game once"
+      ],
+      [
+        "aisha_r",
+        "did he tell your mum?"
+      ],
+      [
+        "neha_j",
+        "yes she reported it"
+      ]
+    ]
+  }
+]

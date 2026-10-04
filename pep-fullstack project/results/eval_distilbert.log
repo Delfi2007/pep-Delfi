@@ -1,0 +1,9 @@
+device: cuda NVIDIA GeForce RTX 3050 6GB Laptop GPU
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights:  10%|▉         | 10/104 [00:00<00:01, 78.21it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 803.74it/s]
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 14/104 [00:00<00:00, 133.77it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 651.59it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (1049 > 512). Running this sequence through the model will result in indexing errors
+stage 1 scored (3.84 ms/conversation)
+[distilbert] tuned t1=0.998 t2=0.98 val F0.5=0.8252
+[distilbert] TEST author: P=0.9655 R=0.6614 F1=0.785 F0.5=0.8842 acc=0.9996
+[ensemble] tuned t1=0.99 t2=0.9 val F0.5=0.8252
+[ensemble] TEST author: P=0.9123 R=0.6142 F1=0.7341 F0.5=0.8316 acc=0.9995

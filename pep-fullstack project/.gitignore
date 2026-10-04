@@ -1,0 +1,37 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Python
+.venv/
+backend/venv/
+__pycache__/
+**/__pycache__/
+*.egg-info/
+
+# Env / secrets (backend/.env holds the Groq / Anthropic key)
+.env
+.env.local
+**/.env
+
+# Synthetic demo case output (regenerate with: python data/generate_case.py)
+data/case_bundle/
+
+# PAN12 benchmark — contains sensitive chat text; never commit it
+data/pan12/
+data/processed/
+
+# Trained models (~550 MB; reproducible with the ml/ scripts)
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local server logs
+backend/*.log
+frontend/*.log

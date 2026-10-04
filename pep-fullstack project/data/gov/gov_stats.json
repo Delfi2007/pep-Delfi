@@ -1,0 +1,1103 @@
+{
+  "ncrb": {
+    "source": {
+      "name": "NCRB Crime in India, Table 9A.11 \u2014 Cyber Crimes against Children (State/UT-wise)",
+      "compiled_by": "V. Tikhute, Mendeley Data, doi:10.17632/mc7wsp8v9y.2 (CC BY 4.0)",
+      "url": "https://data.mendeley.com/datasets/mc7wsp8v9y/2",
+      "original": "https://ncrb.gov.in",
+      "caveat": "As provided by States/UTs; NCRB notes States/UTs should not be compared purely on crime figures."
+    },
+    "heads": {
+      "cyber_blackmail_threat_harassment": "Cyber blackmail / threats / harassment",
+      "fake_profile": "Fake profile",
+      "cyber_pornography_children": "Publishing sexual material depicting children (IT Act 67B)",
+      "cyber_stalking_bullying": "Cyber stalking / bullying",
+      "online_games": "Crimes through online games",
+      "other": "Other cyber crimes against children",
+      "total": "Total"
+    },
+    "national": [
+      {
+        "year": 2017,
+        "cyber_blackmail_threat_harassment": 1,
+        "fake_profile": 3,
+        "cyber_pornography_children": 7,
+        "cyber_stalking_bullying": 7,
+        "online_games": 0,
+        "other": 70,
+        "total": 88
+      },
+      {
+        "year": 2018,
+        "cyber_blackmail_threat_harassment": 4,
+        "fake_profile": 3,
+        "cyber_pornography_children": 44,
+        "cyber_stalking_bullying": 40,
+        "online_games": 0,
+        "other": 141,
+        "total": 232
+      },
+      {
+        "year": 2019,
+        "cyber_blackmail_threat_harassment": 3,
+        "fake_profile": 1,
+        "cyber_pornography_children": 102,
+        "cyber_stalking_bullying": 45,
+        "online_games": 1,
+        "other": 153,
+        "total": 305
+      },
+      {
+        "year": 2020,
+        "cyber_blackmail_threat_harassment": 3,
+        "fake_profile": 1,
+        "cyber_pornography_children": 738,
+        "cyber_stalking_bullying": 140,
+        "online_games": 0,
+        "other": 220,
+        "total": 1102
+      },
+      {
+        "year": 2021,
+        "cyber_blackmail_threat_harassment": 23,
+        "fake_profile": 9,
+        "cyber_pornography_children": 969,
+        "cyber_stalking_bullying": 123,
+        "online_games": 0,
+        "other": 252,
+        "total": 1376
+      }
+    ],
+    "reported_later": [
+      {
+        "year": 2022,
+        "total": 1823,
+        "source": "NCRB Crime in India 2022 (as reported)",
+        "url": "https://deccanherald.com/india/cybercrimes-against-children-see-32-rise-in-a-year-ncrb-report-shows-2799597"
+      }
+    ],
+    "trend": {
+      "annual_growth_pct": 86.3,
+      "points": [
+        {
+          "year": 2017,
+          "fitted": 107.2
+        },
+        {
+          "year": 2018,
+          "fitted": 199.8
+        },
+        {
+          "year": 2019,
+          "fitted": 372.3
+        },
+        {
+          "year": 2020,
+          "fitted": 693.6
+        },
+        {
+          "year": 2021,
+          "fitted": 1292.3
+        },
+        {
+          "year": 2022,
+          "fitted": 2407.7
+        }
+      ],
+      "method": "Least-squares fit of log(total) on year (6 data points). Descriptive only \u2014 growth partly reflects better reporting, not just more offending."
+    },
+    "latest_year": 2021,
+    "states_latest": [
+      {
+        "state": "Maharashtra",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 3,
+        "cyber_pornography_children": 61,
+        "cyber_stalking_bullying": 62,
+        "online_games": 0,
+        "other": 42,
+        "total": 168,
+        "child_population_lakh": 361.1,
+        "rate_per_lakh_children": 0.465,
+        "cluster": 1
+      },
+      {
+        "state": "Karnataka",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 159,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 5,
+        "total": 164,
+        "child_population_lakh": 193.5,
+        "rate_per_lakh_children": 0.848,
+        "cluster": 0
+      },
+      {
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 5,
+        "fake_profile": 0,
+        "cyber_pornography_children": 129,
+        "cyber_stalking_bullying": 6,
+        "online_games": 0,
+        "other": 23,
+        "total": 163,
+        "child_population_lakh": 94.1,
+        "rate_per_lakh_children": 1.732,
+        "cluster": 0
+      },
+      {
+        "state": "Delhi",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 160,
+        "cyber_stalking_bullying": 1,
+        "online_games": 0,
+        "other": 1,
+        "total": 162,
+        "child_population_lakh": 55.4,
+        "rate_per_lakh_children": 2.924,
+        "cluster": 0
+      },
+      {
+        "state": "Assam",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 14,
+        "fake_profile": 2,
+        "cyber_pornography_children": 81,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 39,
+        "total": 136,
+        "child_population_lakh": 120.8,
+        "rate_per_lakh_children": 1.126,
+        "cluster": 0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 73,
+        "cyber_stalking_bullying": 8,
+        "online_games": 0,
+        "other": 20,
+        "total": 101,
+        "child_population_lakh": 853.3,
+        "rate_per_lakh_children": 0.118,
+        "cluster": 0
+      },
+      {
+        "state": "Chhattisgarh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 2,
+        "cyber_pornography_children": 72,
+        "cyber_stalking_bullying": 5,
+        "online_games": 0,
+        "other": 9,
+        "total": 88,
+        "child_population_lakh": 97.5,
+        "rate_per_lakh_children": 0.903,
+        "cluster": 0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 3,
+        "fake_profile": 1,
+        "cyber_pornography_children": 39,
+        "cyber_stalking_bullying": 5,
+        "online_games": 0,
+        "other": 17,
+        "total": 65,
+        "child_population_lakh": 151.1,
+        "rate_per_lakh_children": 0.43,
+        "cluster": 0
+      },
+      {
+        "state": "Punjab",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 56,
+        "cyber_stalking_bullying": 2,
+        "online_games": 0,
+        "other": 5,
+        "total": 63,
+        "child_population_lakh": 87.4,
+        "rate_per_lakh_children": 0.721,
+        "cluster": 0
+      },
+      {
+        "state": "Odisha",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 48,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 48,
+        "child_population_lakh": 144.1,
+        "rate_per_lakh_children": 0.333,
+        "cluster": 0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 11,
+        "cyber_stalking_bullying": 7,
+        "online_games": 0,
+        "other": 27,
+        "total": 45,
+        "child_population_lakh": 287.6,
+        "rate_per_lakh_children": 0.156,
+        "cluster": 1
+      },
+      {
+        "state": "Gujarat",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 15,
+        "cyber_stalking_bullying": 5,
+        "online_games": 0,
+        "other": 23,
+        "total": 43,
+        "child_population_lakh": 209.2,
+        "rate_per_lakh_children": 0.206,
+        "cluster": 1
+      },
+      {
+        "state": "Rajasthan",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 9,
+        "cyber_stalking_bullying": 3,
+        "online_games": 0,
+        "other": 21,
+        "total": 33,
+        "child_population_lakh": 281.4,
+        "rate_per_lakh_children": 0.117,
+        "cluster": 1
+      },
+      {
+        "state": "Uttarakhand",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 20,
+        "cyber_stalking_bullying": 3,
+        "online_games": 0,
+        "other": 0,
+        "total": 23,
+        "child_population_lakh": 38.0,
+        "rate_per_lakh_children": 0.605,
+        "cluster": 0
+      },
+      {
+        "state": "Tamil Nadu",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 1,
+        "fake_profile": 0,
+        "cyber_pornography_children": 15,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 3,
+        "total": 19,
+        "child_population_lakh": 206.6,
+        "rate_per_lakh_children": 0.092,
+        "cluster": 0
+      },
+      {
+        "state": "Telangana",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 1,
+        "cyber_pornography_children": 2,
+        "cyber_stalking_bullying": 13,
+        "online_games": 0,
+        "other": 1,
+        "total": 17,
+        "child_population_lakh": 113.8,
+        "rate_per_lakh_children": 0.149,
+        "cluster": 2
+      },
+      {
+        "state": "Himachal Pradesh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 5,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 2,
+        "total": 7,
+        "child_population_lakh": 21.5,
+        "rate_per_lakh_children": 0.326,
+        "cluster": 0
+      },
+      {
+        "state": "Jharkhand",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 6,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 6,
+        "child_population_lakh": 138.4,
+        "rate_per_lakh_children": 0.043,
+        "cluster": 0
+      },
+      {
+        "state": "Haryana",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 5,
+        "total": 5,
+        "child_population_lakh": 91.2,
+        "rate_per_lakh_children": 0.055,
+        "cluster": 1
+      },
+      {
+        "state": "West Bengal",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 1,
+        "online_games": 0,
+        "other": 4,
+        "total": 5,
+        "child_population_lakh": 300.0,
+        "rate_per_lakh_children": 0.017,
+        "cluster": 1
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 3,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 1,
+        "total": 4,
+        "child_population_lakh": null,
+        "rate_per_lakh_children": null
+      },
+      {
+        "state": "Goa",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 1,
+        "online_games": 0,
+        "other": 2,
+        "total": 3,
+        "child_population_lakh": 3.8,
+        "rate_per_lakh_children": 0.789
+      },
+      {
+        "state": "Meghalaya",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 2,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 1,
+        "total": 3,
+        "child_population_lakh": 13.8,
+        "rate_per_lakh_children": 0.217
+      },
+      {
+        "state": "Bihar",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 1,
+        "cyber_stalking_bullying": 1,
+        "online_games": 0,
+        "other": 0,
+        "total": 2,
+        "child_population_lakh": 475.0,
+        "rate_per_lakh_children": 0.004
+      },
+      {
+        "state": "A&N Islands",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 1,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 1,
+        "total": 2,
+        "child_population_lakh": 1.1,
+        "rate_per_lakh_children": 1.818
+      },
+      {
+        "state": "Manipur",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 1,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 1,
+        "child_population_lakh": 10.3,
+        "rate_per_lakh_children": 0.097
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 5.9,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Mizoram",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 4.2,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Nagaland",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 8.2,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Sikkim",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 2.1,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Tripura",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 12.3,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Chandigarh",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 3.2,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "D&N Haveli and Daman & Diu",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": null,
+        "rate_per_lakh_children": null
+      },
+      {
+        "state": "Ladakh",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": null,
+        "rate_per_lakh_children": null
+      },
+      {
+        "state": "Lakshadweep",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 0.2,
+        "rate_per_lakh_children": 0.0
+      },
+      {
+        "state": "Puducherry",
+        "kind": "ut",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0,
+        "child_population_lakh": 3.6,
+        "rate_per_lakh_children": 0.0
+      }
+    ],
+    "state_series": {
+      "2": {
+        "2017": 9,
+        "2018": 9,
+        "2019": 9
+      },
+      "Andhra Pradesh": {
+        "2017": 1,
+        "2018": 12,
+        "2019": 9,
+        "2020": 52,
+        "2021": 65
+      },
+      "Arunachal Pradesh": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 1,
+        "2020": 0,
+        "2021": 0
+      },
+      "Assam": {
+        "2017": 1,
+        "2018": 9,
+        "2019": 7,
+        "2020": 45,
+        "2021": 136
+      },
+      "Bihar": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 1,
+        "2021": 2
+      },
+      "Chhattisgarh": {
+        "2017": 4,
+        "2018": 7,
+        "2019": 5,
+        "2020": 21,
+        "2021": 88
+      },
+      "Goa": {
+        "2017": 2,
+        "2018": 2,
+        "2019": 1,
+        "2020": 3,
+        "2021": 3
+      },
+      "Gujarat": {
+        "2017": 4,
+        "2018": 12,
+        "2019": 7,
+        "2020": 32,
+        "2021": 43
+      },
+      "Haryana": {
+        "2017": 0,
+        "2018": 1,
+        "2019": 5,
+        "2020": 33,
+        "2021": 5
+      },
+      "Himachal Pradesh": {
+        "2017": 1,
+        "2018": 2,
+        "2019": 9,
+        "2020": 19,
+        "2021": 7
+      },
+      "Jammu & Kashmir": {
+        "2017": 1,
+        "2018": 0,
+        "2019": 0,
+        "2020": 1,
+        "2021": 4
+      },
+      "Jharkhand": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 4,
+        "2021": 6
+      },
+      "Karnataka": {
+        "2017": 0,
+        "2018": 25,
+        "2019": 10,
+        "2020": 144,
+        "2021": 164
+      },
+      "Kerala": {
+        "2017": 0,
+        "2018": 25,
+        "2019": 30,
+        "2020": 126,
+        "2021": 163
+      },
+      "Madhya Pradesh": {
+        "2017": 5,
+        "2018": 15,
+        "2019": 20,
+        "2020": 39,
+        "2021": 45
+      },
+      "Maharashtra": {
+        "2017": 27,
+        "2018": 57,
+        "2019": 70,
+        "2020": 207,
+        "2021": 168
+      },
+      "Manipur": {
+        "2017": 2,
+        "2018": 0,
+        "2019": 1,
+        "2020": 3,
+        "2021": 1
+      },
+      "Meghalaya": {
+        "2017": 0,
+        "2018": 1,
+        "2019": 0,
+        "2020": 0,
+        "2021": 3
+      },
+      "Mizoram": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 1,
+        "2020": 0,
+        "2021": 0
+      },
+      "Nagaland": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0
+      },
+      "Odisha": {
+        "2017": 0,
+        "2018": 7,
+        "2019": 5,
+        "2020": 71,
+        "2021": 48
+      },
+      "Punjab": {
+        "2017": 4,
+        "2018": 5,
+        "2019": 1,
+        "2020": 10,
+        "2021": 63
+      },
+      "Rajasthan": {
+        "2017": 6,
+        "2018": 2,
+        "2019": 9,
+        "2020": 24,
+        "2021": 33
+      },
+      "Sikkim": {
+        "2017": 0,
+        "2018": 1,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0
+      },
+      "Tamil Nadu": {
+        "2017": 3,
+        "2018": 5,
+        "2019": 5,
+        "2020": 35,
+        "2021": 19
+      },
+      "Telangana": {
+        "2017": 0,
+        "2018": 2,
+        "2019": 3,
+        "2020": 9,
+        "2021": 17
+      },
+      "Tripura": {
+        "2017": 0,
+        "2018": 1,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0
+      },
+      "Uttar Pradesh": {
+        "2017": 3,
+        "2018": 27,
+        "2019": 98,
+        "2020": 197,
+        "2021": 101
+      },
+      "Uttarakhand": {
+        "2017": 0,
+        "2018": 2,
+        "2019": 0,
+        "2020": 11,
+        "2021": 23
+      },
+      "West Bengal": {
+        "2017": 19,
+        "2018": 5,
+        "2019": 5,
+        "2020": 6,
+        "2021": 5
+      },
+      "A&N Islands": {
+        "2017": 0,
+        "2018": 1,
+        "2019": 0,
+        "2020": 1,
+        "2021": 2
+      },
+      "Chandigarh": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 3,
+        "2021": 0
+      },
+      "D&N Haveli": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0
+      },
+      "Daman & Diu": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0
+      },
+      "Delhi": {
+        "2017": 5,
+        "2018": 6,
+        "2019": 3,
+        "2020": 5,
+        "2021": 162
+      },
+      "Lakshadweep": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0
+      },
+      "Puducherry": {
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0
+      },
+      "D&N Haveli and Daman & Diu": {
+        "2020": 0,
+        "2021": 0
+      },
+      "Ladakh": {
+        "2020": 0,
+        "2021": 0
+      }
+    },
+    "kerala": [
+      {
+        "year": 2017,
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 0,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 0,
+        "total": 0
+      },
+      {
+        "year": 2018,
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 18,
+        "cyber_stalking_bullying": 1,
+        "online_games": 0,
+        "other": 6,
+        "total": 25
+      },
+      {
+        "year": 2019,
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 27,
+        "cyber_stalking_bullying": 0,
+        "online_games": 0,
+        "other": 3,
+        "total": 30
+      },
+      {
+        "year": 2020,
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 0,
+        "fake_profile": 0,
+        "cyber_pornography_children": 101,
+        "cyber_stalking_bullying": 3,
+        "online_games": 0,
+        "other": 22,
+        "total": 126
+      },
+      {
+        "year": 2021,
+        "state": "Kerala",
+        "kind": "state",
+        "cyber_blackmail_threat_harassment": 5,
+        "fake_profile": 0,
+        "cyber_pornography_children": 129,
+        "cyber_stalking_bullying": 6,
+        "online_games": 0,
+        "other": 23,
+        "total": 163
+      }
+    ],
+    "clusters": {
+      "k": 3,
+      "year": 2021,
+      "features": "log rate per lakh children + share of each crime head",
+      "items": [
+        {
+          "cluster": 0,
+          "states": [
+            "Andhra Pradesh",
+            "Assam",
+            "Chhattisgarh",
+            "Delhi",
+            "Himachal Pradesh",
+            "Jharkhand",
+            "Karnataka",
+            "Kerala",
+            "Odisha",
+            "Punjab",
+            "Tamil Nadu",
+            "Uttar Pradesh",
+            "Uttarakhand"
+          ],
+          "mean_rate_per_lakh_children": 0.785,
+          "dominant_crime_head": "Publishing sexual material depicting children (IT Act 67B)",
+          "mix": {
+            "cyber_blackmail_threat_harassment": 0.018,
+            "fake_profile": 0.004,
+            "cyber_pornography_children": 0.827,
+            "cyber_stalking_bullying": 0.032,
+            "online_games": 0.0,
+            "other": 0.119
+          }
+        },
+        {
+          "cluster": 1,
+          "states": [
+            "Gujarat",
+            "Haryana",
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "West Bengal"
+          ],
+          "mean_rate_per_lakh_children": 0.169,
+          "dominant_crime_head": "Other cyber crimes against children",
+          "mix": {
+            "cyber_blackmail_threat_harassment": 0.0,
+            "fake_profile": 0.003,
+            "cyber_pornography_children": 0.205,
+            "cyber_stalking_bullying": 0.155,
+            "online_games": 0.0,
+            "other": 0.637
+          }
+        },
+        {
+          "cluster": 2,
+          "states": [
+            "Telangana"
+          ],
+          "mean_rate_per_lakh_children": 0.149,
+          "dominant_crime_head": "Cyber stalking / bullying",
+          "mix": {
+            "cyber_blackmail_threat_harassment": 0.0,
+            "fake_profile": 0.059,
+            "cyber_pornography_children": 0.118,
+            "cyber_stalking_bullying": 0.765,
+            "online_games": 0.0,
+            "other": 0.059
+          }
+        }
+      ]
+    }
+  },
+  "ncmec": {
+    "source": {
+      "name": "NCMEC CyberTipline Reports by Country",
+      "url": "https://www.missingkids.org/gethelpnow/cybertipline/cybertiplinedata",
+      "caveat": "Counts reports whose geographic indicators resolve to a country; most come from US platforms' mandatory reporting. 2024 figures are lower partly because NCMEC began bundling duplicate reports."
+    },
+    "years": [
+      {
+        "year": 2019,
+        "countries": {
+          "India": 1987430,
+          "Philippines": 801272,
+          "Pakistan": 1158390,
+          "Bangladesh": 556642,
+          "Indonesia": 840221,
+          "Vietnam": 379554,
+          "Brazil": 398069,
+          "United States": 521658,
+          "Iraq": 1026809,
+          "Algeria": 700535
+        },
+        "global_million": 16.9
+      },
+      {
+        "year": 2020,
+        "countries": {
+          "India": 2725518,
+          "Philippines": 1339597,
+          "Pakistan": 1288513,
+          "Bangladesh": 817687,
+          "Indonesia": 986648,
+          "Vietnam": 843963,
+          "Brazil": 432196,
+          "United States": 494388,
+          "Iraq": 919966,
+          "Algeria": 1102939
+        },
+        "global_million": null
+      },
+      {
+        "year": 2021,
+        "countries": {
+          "India": 4699515,
+          "Philippines": 3188793,
+          "Pakistan": 2030801,
+          "Bangladesh": 1743240,
+          "Indonesia": 1861135,
+          "Vietnam": 716065,
+          "Brazil": 437091,
+          "United States": 716474,
+          "Iraq": 1220470,
+          "Algeria": 1171653
+        },
+        "global_million": 29.3
+      },
+      {
+        "year": 2022,
+        "countries": {
+          "India": 5675324,
+          "Philippines": 2576182,
+          "Pakistan": 2059884,
+          "Bangladesh": 2145098,
+          "Indonesia": 1878011,
+          "Vietnam": 957432,
+          "Brazil": 611230,
+          "United States": 1562616,
+          "Iraq": 905883,
+          "Algeria": 731167
+        },
+        "global_million": 32.0
+      },
+      {
+        "year": 2023,
+        "countries": {
+          "India": 8923738,
+          "Philippines": 2740905,
+          "Pakistan": 1924739,
+          "Bangladesh": 2491368,
+          "Indonesia": 1925549,
+          "Vietnam": 533236,
+          "Brazil": 567985,
+          "United States": 1132270,
+          "Iraq": 749746,
+          "Algeria": 762754
+        },
+        "global_million": 36.2
+      },
+      {
+        "year": 2024,
+        "countries": {
+          "India": 2252528,
+          "Philippines": 1721249,
+          "Pakistan": 1036608,
+          "Bangladesh": 1112857,
+          "Indonesia": 1450403,
+          "Vietnam": 381160,
+          "Brazil": 593695,
+          "United States": 1177758,
+          "Iraq": 588225,
+          "Algeria": 327865
+        },
+        "global_million": null
+      }
+    ]
+  }
+}
