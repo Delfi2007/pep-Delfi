@@ -1,0 +1,10 @@
+{
+  "pan_train": 53561,
+  "pan_val": 13366,
+  "pan_test": 155128,
+  "syn_train": 32343,
+  "syn_val": 3632,
+  "syn_test": 51000,
+  "real_train": 30000,
+  "real_test": 37931
+}

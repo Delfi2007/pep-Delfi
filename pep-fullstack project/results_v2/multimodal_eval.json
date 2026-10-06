@@ -1,0 +1,5666 @@
+{
+  "v2/tfidf_lr": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7876,
+          "precision": 0.9231,
+          "recall": 0.1714,
+          "f1": 0.2892,
+          "f0.5": 0.4918,
+          "confusion_matrix": {
+            "tn": 3722,
+            "fp": 18,
+            "fn": 1044,
+            "tp": 216
+          },
+          "roc_auc": 0.9302,
+          "pr_auc": 0.8249
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.9302,
+          "pr_auc": 0.8249
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.781,
+          "precision": 0.9337,
+          "recall": 0.135,
+          "f1": 0.2359,
+          "f0.5": 0.4276,
+          "confusion_matrix": {
+            "tn": 3736,
+            "fp": 12,
+            "fn": 1083,
+            "tp": 169
+          },
+          "roc_auc": 0.9322,
+          "pr_auc": 0.8177
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9322,
+          "pr_auc": 0.8177
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.771,
+          "precision": 0.8992,
+          "recall": 0.0929,
+          "f1": 0.1685,
+          "f0.5": 0.3288,
+          "confusion_matrix": {
+            "tn": 3739,
+            "fp": 13,
+            "fn": 1132,
+            "tp": 116
+          },
+          "roc_auc": 0.8802,
+          "pr_auc": 0.7174
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.8802,
+          "pr_auc": 0.7174
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.781,
+          "precision": 0.9337,
+          "recall": 0.135,
+          "f1": 0.2359,
+          "f0.5": 0.4276,
+          "confusion_matrix": {
+            "tn": 3736,
+            "fp": 12,
+            "fn": 1083,
+            "tp": 169
+          },
+          "roc_auc": 0.9322,
+          "pr_auc": 0.8177
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9322,
+          "pr_auc": 0.8177
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5217,
+          "precision": 0.9333,
+          "recall": 0.0467,
+          "f1": 0.0889,
+          "f0.5": 0.1944,
+          "confusion_matrix": {
+            "tn": 299,
+            "fp": 1,
+            "fn": 286,
+            "tp": 14
+          },
+          "roc_auc": 0.8709,
+          "pr_auc": 0.8473
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.8709,
+          "pr_auc": 0.8473
+        },
+        "instigator_accuracy": 0.9967
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7758,
+          "precision": 0.9241,
+          "recall": 0.1077,
+          "f1": 0.1929,
+          "f0.5": 0.3673,
+          "confusion_matrix": {
+            "tn": 3745,
+            "fp": 11,
+            "fn": 1110,
+            "tp": 134
+          },
+          "roc_auc": 0.8984,
+          "pr_auc": 0.7589
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.8984,
+          "pr_auc": 0.7589
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.53,
+          "precision": 1.0,
+          "recall": 0.06,
+          "f1": 0.1132,
+          "f0.5": 0.2419,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 47,
+            "tp": 3
+          },
+          "roc_auc": 0.8988,
+          "pr_auc": 0.9075
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.8988,
+          "pr_auc": 0.9075
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5333,
+          "precision": 1.0,
+          "recall": 0.0667,
+          "f1": 0.125,
+          "f0.5": 0.2632,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 140,
+            "tp": 10
+          },
+          "roc_auc": 0.8645,
+          "pr_auc": 0.8693
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.8645,
+          "pr_auc": 0.8693
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0032,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.03,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0295,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.99
+  },
+  "v2/tfidf_svm": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7478,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3739,
+            "fp": 1,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.9761,
+          "pr_auc": 0.9045
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.9761,
+          "pr_auc": 0.9045
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7498,
+          "precision": 1.0,
+          "recall": 0.0008,
+          "f1": 0.0016,
+          "f0.5": 0.004,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1251,
+            "tp": 1
+          },
+          "roc_auc": 0.9732,
+          "pr_auc": 0.8974
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9732,
+          "pr_auc": 0.8974
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7508,
+          "precision": 1.0,
+          "recall": 0.0016,
+          "f1": 0.0032,
+          "f0.5": 0.008,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1246,
+            "tp": 2
+          },
+          "roc_auc": 0.9546,
+          "pr_auc": 0.8141
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.9546,
+          "pr_auc": 0.8141
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7498,
+          "precision": 1.0,
+          "recall": 0.0008,
+          "f1": 0.0016,
+          "f0.5": 0.004,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1251,
+            "tp": 1
+          },
+          "roc_auc": 0.9732,
+          "pr_auc": 0.8974
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9732,
+          "pr_auc": 0.8974
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.9616,
+          "pr_auc": 0.9531
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.9616,
+          "pr_auc": 0.9531
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.9623,
+          "pr_auc": 0.8411
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.9623,
+          "pr_auc": 0.8411
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.9628,
+          "pr_auc": 0.9337
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.9628,
+          "pr_auc": 0.9337
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.9401,
+          "pr_auc": 0.8982
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.9401,
+          "pr_auc": 0.8982
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0002,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0016,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0007,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.9
+  },
+  "v2/tfidf_cnb": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.785,
+          "precision": 0.6947,
+          "recall": 0.2619,
+          "f1": 0.3804,
+          "f0.5": 0.5222,
+          "confusion_matrix": {
+            "tn": 3595,
+            "fp": 145,
+            "fn": 930,
+            "tp": 330
+          },
+          "roc_auc": 0.865,
+          "pr_auc": 0.6741
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7492,
+          "precision": 1.0,
+          "recall": 0.0048,
+          "f1": 0.0095,
+          "f0.5": 0.0234,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1254,
+            "tp": 6
+          },
+          "roc_auc": 0.865,
+          "pr_auc": 0.6741
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7786,
+          "precision": 0.6622,
+          "recall": 0.2364,
+          "f1": 0.3484,
+          "f0.5": 0.4868,
+          "confusion_matrix": {
+            "tn": 3597,
+            "fp": 151,
+            "fn": 956,
+            "tp": 296
+          },
+          "roc_auc": 0.8431,
+          "pr_auc": 0.6194
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7512,
+          "precision": 1.0,
+          "recall": 0.0064,
+          "f1": 0.0127,
+          "f0.5": 0.0312,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 8
+          },
+          "roc_auc": 0.8431,
+          "pr_auc": 0.6194
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.8078,
+          "precision": 0.7531,
+          "recall": 0.3421,
+          "f1": 0.4705,
+          "f0.5": 0.6072,
+          "confusion_matrix": {
+            "tn": 3612,
+            "fp": 140,
+            "fn": 821,
+            "tp": 427
+          },
+          "roc_auc": 0.869,
+          "pr_auc": 0.7047
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.755,
+          "precision": 1.0,
+          "recall": 0.0184,
+          "f1": 0.0362,
+          "f0.5": 0.0858,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1225,
+            "tp": 23
+          },
+          "roc_auc": 0.869,
+          "pr_auc": 0.7047
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7786,
+          "precision": 0.6622,
+          "recall": 0.2364,
+          "f1": 0.3484,
+          "f0.5": 0.4868,
+          "confusion_matrix": {
+            "tn": 3597,
+            "fp": 151,
+            "fn": 956,
+            "tp": 296
+          },
+          "roc_auc": 0.8431,
+          "pr_auc": 0.6194
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7512,
+          "precision": 1.0,
+          "recall": 0.0064,
+          "f1": 0.0127,
+          "f0.5": 0.0312,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 8
+          },
+          "roc_auc": 0.8431,
+          "pr_auc": 0.6194
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.6633,
+          "precision": 0.85,
+          "recall": 0.3967,
+          "f1": 0.5409,
+          "f0.5": 0.6919,
+          "confusion_matrix": {
+            "tn": 279,
+            "fp": 21,
+            "fn": 181,
+            "tp": 119
+          },
+          "roc_auc": 0.8596,
+          "pr_auc": 0.8405
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.515,
+          "precision": 1.0,
+          "recall": 0.03,
+          "f1": 0.0583,
+          "f0.5": 0.1339,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 291,
+            "tp": 9
+          },
+          "roc_auc": 0.8596,
+          "pr_auc": 0.8405
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.807,
+          "precision": 0.7698,
+          "recall": 0.3199,
+          "f1": 0.452,
+          "f0.5": 0.6008,
+          "confusion_matrix": {
+            "tn": 3637,
+            "fp": 119,
+            "fn": 846,
+            "tp": 398
+          },
+          "roc_auc": 0.8778,
+          "pr_auc": 0.7167
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7544,
+          "precision": 1.0,
+          "recall": 0.0129,
+          "f1": 0.0254,
+          "f0.5": 0.0612,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1228,
+            "tp": 16
+          },
+          "roc_auc": 0.8778,
+          "pr_auc": 0.7167
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.6,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333,
+          "f0.5": 0.5556,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 40,
+            "tp": 10
+          },
+          "roc_auc": 0.8468,
+          "pr_auc": 0.8582
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.52,
+          "precision": 1.0,
+          "recall": 0.04,
+          "f1": 0.0769,
+          "f0.5": 0.1724,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 48,
+            "tp": 2
+          },
+          "roc_auc": 0.8468,
+          "pr_auc": 0.8582
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5433,
+          "precision": 0.7407,
+          "recall": 0.1333,
+          "f1": 0.226,
+          "f0.5": 0.3876,
+          "confusion_matrix": {
+            "tn": 143,
+            "fp": 7,
+            "fn": 130,
+            "tp": 20
+          },
+          "roc_auc": 0.759,
+          "pr_auc": 0.7221
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.759,
+          "pr_auc": 0.7221
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.003,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0802,
+        "fpr_at_tuned_t1": 0.0006
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0042,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0491,
+        "fpr_at_tuned_t1": 0.0007
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.95
+  },
+  "v2/char_lr": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.9214,
+          "precision": 0.9707,
+          "recall": 0.7095,
+          "f1": 0.8198,
+          "f0.5": 0.9041,
+          "confusion_matrix": {
+            "tn": 3713,
+            "fp": 27,
+            "fn": 366,
+            "tp": 894
+          },
+          "roc_auc": 0.9768,
+          "pr_auc": 0.9506
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7536,
+          "precision": 1.0,
+          "recall": 0.0222,
+          "f1": 0.0435,
+          "f0.5": 0.102,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1232,
+            "tp": 28
+          },
+          "roc_auc": 0.9768,
+          "pr_auc": 0.9506
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.917,
+          "precision": 0.9761,
+          "recall": 0.6853,
+          "f1": 0.8053,
+          "f0.5": 0.8997,
+          "confusion_matrix": {
+            "tn": 3727,
+            "fp": 21,
+            "fn": 394,
+            "tp": 858
+          },
+          "roc_auc": 0.9803,
+          "pr_auc": 0.9522
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.754,
+          "precision": 1.0,
+          "recall": 0.0176,
+          "f1": 0.0345,
+          "f0.5": 0.0821,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1230,
+            "tp": 22
+          },
+          "roc_auc": 0.9803,
+          "pr_auc": 0.9522
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.8672,
+          "precision": 0.9665,
+          "recall": 0.4848,
+          "f1": 0.6457,
+          "f0.5": 0.8062,
+          "confusion_matrix": {
+            "tn": 3731,
+            "fp": 21,
+            "fn": 643,
+            "tp": 605
+          },
+          "roc_auc": 0.95,
+          "pr_auc": 0.8892
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7538,
+          "precision": 1.0,
+          "recall": 0.0136,
+          "f1": 0.0269,
+          "f0.5": 0.0646,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1231,
+            "tp": 17
+          },
+          "roc_auc": 0.95,
+          "pr_auc": 0.8892
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.917,
+          "precision": 0.9761,
+          "recall": 0.6853,
+          "f1": 0.8053,
+          "f0.5": 0.8997,
+          "confusion_matrix": {
+            "tn": 3727,
+            "fp": 21,
+            "fn": 394,
+            "tp": 858
+          },
+          "roc_auc": 0.9803,
+          "pr_auc": 0.9522
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.754,
+          "precision": 1.0,
+          "recall": 0.0176,
+          "f1": 0.0345,
+          "f0.5": 0.0821,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1230,
+            "tp": 22
+          },
+          "roc_auc": 0.9803,
+          "pr_auc": 0.9522
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.6767,
+          "precision": 0.9818,
+          "recall": 0.36,
+          "f1": 0.5268,
+          "f0.5": 0.7297,
+          "confusion_matrix": {
+            "tn": 298,
+            "fp": 2,
+            "fn": 192,
+            "tp": 108
+          },
+          "roc_auc": 0.9255,
+          "pr_auc": 0.9276
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5017,
+          "precision": 1.0,
+          "recall": 0.0033,
+          "f1": 0.0066,
+          "f0.5": 0.0164,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 299,
+            "tp": 1
+          },
+          "roc_auc": 0.9255,
+          "pr_auc": 0.9276
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.8836,
+          "precision": 0.9742,
+          "recall": 0.5466,
+          "f1": 0.7003,
+          "f0.5": 0.8424,
+          "confusion_matrix": {
+            "tn": 3738,
+            "fp": 18,
+            "fn": 564,
+            "tp": 680
+          },
+          "roc_auc": 0.9585,
+          "pr_auc": 0.9105
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7554,
+          "precision": 1.0,
+          "recall": 0.0169,
+          "f1": 0.0332,
+          "f0.5": 0.0791,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1223,
+            "tp": 21
+          },
+          "roc_auc": 0.9585,
+          "pr_auc": 0.9105
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.66,
+          "precision": 1.0,
+          "recall": 0.32,
+          "f1": 0.4848,
+          "f0.5": 0.7018,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 34,
+            "tp": 16
+          },
+          "roc_auc": 0.9604,
+          "pr_auc": 0.9651
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.9604,
+          "pr_auc": 0.9651
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.6033,
+          "precision": 1.0,
+          "recall": 0.2067,
+          "f1": 0.3425,
+          "f0.5": 0.5657,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 119,
+            "tp": 31
+          },
+          "roc_auc": 0.9735,
+          "pr_auc": 0.9753
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.9735,
+          "pr_auc": 0.9753
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0052,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.02,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.033,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.99
+  },
+  "v2/behavioral_hgb": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.9198,
+          "precision": 0.7589,
+          "recall": 0.9992,
+          "f1": 0.8626,
+          "f0.5": 0.7972,
+          "confusion_matrix": {
+            "tn": 3340,
+            "fp": 400,
+            "fn": 1,
+            "tp": 1259
+          },
+          "roc_auc": 0.9969,
+          "pr_auc": 0.9898
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.9852,
+          "precision": 0.9699,
+          "recall": 0.9714,
+          "f1": 0.9707,
+          "f0.5": 0.9702,
+          "confusion_matrix": {
+            "tn": 3702,
+            "fp": 38,
+            "fn": 36,
+            "tp": 1224
+          },
+          "roc_auc": 0.9969,
+          "pr_auc": 0.9898
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9188,
+          "precision": 0.7554,
+          "recall": 0.9992,
+          "f1": 0.8604,
+          "f0.5": 0.7942,
+          "confusion_matrix": {
+            "tn": 3343,
+            "fp": 405,
+            "fn": 1,
+            "tp": 1251
+          },
+          "roc_auc": 0.9971,
+          "pr_auc": 0.9908
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9824,
+          "precision": 0.9701,
+          "recall": 0.9593,
+          "f1": 0.9647,
+          "f0.5": 0.9679,
+          "confusion_matrix": {
+            "tn": 3711,
+            "fp": 37,
+            "fn": 51,
+            "tp": 1201
+          },
+          "roc_auc": 0.9971,
+          "pr_auc": 0.9908
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.9208,
+          "precision": 0.7594,
+          "recall": 0.9992,
+          "f1": 0.863,
+          "f0.5": 0.7977,
+          "confusion_matrix": {
+            "tn": 3357,
+            "fp": 395,
+            "fn": 1,
+            "tp": 1247
+          },
+          "roc_auc": 0.9968,
+          "pr_auc": 0.9898
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.9802,
+          "precision": 0.9768,
+          "recall": 0.9431,
+          "f1": 0.9596,
+          "f0.5": 0.9698,
+          "confusion_matrix": {
+            "tn": 3724,
+            "fp": 28,
+            "fn": 71,
+            "tp": 1177
+          },
+          "roc_auc": 0.9968,
+          "pr_auc": 0.9898
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9188,
+          "precision": 0.7554,
+          "recall": 0.9992,
+          "f1": 0.8604,
+          "f0.5": 0.7942,
+          "confusion_matrix": {
+            "tn": 3343,
+            "fp": 405,
+            "fn": 1,
+            "tp": 1251
+          },
+          "roc_auc": 0.9971,
+          "pr_auc": 0.9908
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9824,
+          "precision": 0.9701,
+          "recall": 0.9593,
+          "f1": 0.9647,
+          "f0.5": 0.9679,
+          "confusion_matrix": {
+            "tn": 3711,
+            "fp": 37,
+            "fn": 51,
+            "tp": 1201
+          },
+          "roc_auc": 0.9971,
+          "pr_auc": 0.9908
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.93,
+          "precision": 0.8794,
+          "recall": 0.9967,
+          "f1": 0.9344,
+          "f0.5": 0.9006,
+          "confusion_matrix": {
+            "tn": 259,
+            "fp": 41,
+            "fn": 1,
+            "tp": 299
+          },
+          "roc_auc": 0.996,
+          "pr_auc": 0.996
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.965,
+          "precision": 0.9964,
+          "recall": 0.9333,
+          "f1": 0.9639,
+          "f0.5": 0.9831,
+          "confusion_matrix": {
+            "tn": 299,
+            "fp": 1,
+            "fn": 20,
+            "tp": 280
+          },
+          "roc_auc": 0.996,
+          "pr_auc": 0.996
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.9254,
+          "precision": 0.77,
+          "recall": 0.9984,
+          "f1": 0.8694,
+          "f0.5": 0.8069,
+          "confusion_matrix": {
+            "tn": 3385,
+            "fp": 371,
+            "fn": 2,
+            "tp": 1242
+          },
+          "roc_auc": 0.997,
+          "pr_auc": 0.9907
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.985,
+          "precision": 0.9657,
+          "recall": 0.9743,
+          "f1": 0.97,
+          "f0.5": 0.9674,
+          "confusion_matrix": {
+            "tn": 3713,
+            "fp": 43,
+            "fn": 32,
+            "tp": 1212
+          },
+          "roc_auc": 0.997,
+          "pr_auc": 0.9907
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.92,
+          "precision": 0.875,
+          "recall": 0.98,
+          "f1": 0.9245,
+          "f0.5": 0.8942,
+          "confusion_matrix": {
+            "tn": 43,
+            "fp": 7,
+            "fn": 1,
+            "tp": 49
+          },
+          "roc_auc": 0.9912,
+          "pr_auc": 0.9918
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.81,
+          "precision": 1.0,
+          "recall": 0.62,
+          "f1": 0.7654,
+          "f0.5": 0.8908,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 19,
+            "tp": 31
+          },
+          "roc_auc": 0.9912,
+          "pr_auc": 0.9918
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.9367,
+          "precision": 0.9018,
+          "recall": 0.98,
+          "f1": 0.9393,
+          "f0.5": 0.9165,
+          "confusion_matrix": {
+            "tn": 134,
+            "fp": 16,
+            "fn": 3,
+            "tp": 147
+          },
+          "roc_auc": 0.9854,
+          "pr_auc": 0.9834
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.9233,
+          "precision": 0.9922,
+          "recall": 0.8533,
+          "f1": 0.9176,
+          "f0.5": 0.961,
+          "confusion_matrix": {
+            "tn": 149,
+            "fp": 1,
+            "fn": 22,
+            "tp": 128
+          },
+          "roc_auc": 0.9854,
+          "pr_auc": 0.9834
+        },
+        "instigator_accuracy": 0.9933
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0204,
+        "fpr_at_tuned_t1": 0.0004
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0012,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.114,
+        "fpr_at_tuned_t1": 0.0002
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0084,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0449,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0035,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.95
+  },
+  "v2/distilbert": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.8764,
+          "precision": 0.672,
+          "recall": 0.9952,
+          "f1": 0.8023,
+          "f0.5": 0.7187,
+          "confusion_matrix": {
+            "tn": 3128,
+            "fp": 612,
+            "fn": 6,
+            "tp": 1254
+          },
+          "roc_auc": 0.9909,
+          "pr_auc": 0.9764
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.916,
+          "precision": 0.993,
+          "recall": 0.6714,
+          "f1": 0.8011,
+          "f0.5": 0.9062,
+          "confusion_matrix": {
+            "tn": 3734,
+            "fp": 6,
+            "fn": 414,
+            "tp": 846
+          },
+          "roc_auc": 0.9909,
+          "pr_auc": 0.9764
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.8878,
+          "precision": 0.6916,
+          "recall": 0.996,
+          "f1": 0.8164,
+          "f0.5": 0.7366,
+          "confusion_matrix": {
+            "tn": 3192,
+            "fp": 556,
+            "fn": 5,
+            "tp": 1247
+          },
+          "roc_auc": 0.9929,
+          "pr_auc": 0.9805
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9174,
+          "precision": 0.9941,
+          "recall": 0.6741,
+          "f1": 0.8034,
+          "f0.5": 0.9079,
+          "confusion_matrix": {
+            "tn": 3743,
+            "fp": 5,
+            "fn": 408,
+            "tp": 844
+          },
+          "roc_auc": 0.9929,
+          "pr_auc": 0.9805
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.8764,
+          "precision": 0.6762,
+          "recall": 0.9688,
+          "f1": 0.7964,
+          "f0.5": 0.7196,
+          "confusion_matrix": {
+            "tn": 3173,
+            "fp": 579,
+            "fn": 39,
+            "tp": 1209
+          },
+          "roc_auc": 0.9757,
+          "pr_auc": 0.9374
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.851,
+          "precision": 0.9903,
+          "recall": 0.4071,
+          "f1": 0.5769,
+          "f0.5": 0.7697,
+          "confusion_matrix": {
+            "tn": 3747,
+            "fp": 5,
+            "fn": 740,
+            "tp": 508
+          },
+          "roc_auc": 0.9757,
+          "pr_auc": 0.9374
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.8878,
+          "precision": 0.6916,
+          "recall": 0.996,
+          "f1": 0.8164,
+          "f0.5": 0.7366,
+          "confusion_matrix": {
+            "tn": 3192,
+            "fp": 556,
+            "fn": 5,
+            "tp": 1247
+          },
+          "roc_auc": 0.9929,
+          "pr_auc": 0.9805
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9174,
+          "precision": 0.9941,
+          "recall": 0.6741,
+          "f1": 0.8034,
+          "f0.5": 0.9079,
+          "confusion_matrix": {
+            "tn": 3743,
+            "fp": 5,
+            "fn": 408,
+            "tp": 844
+          },
+          "roc_auc": 0.9929,
+          "pr_auc": 0.9805
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.9283,
+          "precision": 0.8978,
+          "recall": 0.9667,
+          "f1": 0.931,
+          "f0.5": 0.9108,
+          "confusion_matrix": {
+            "tn": 267,
+            "fp": 33,
+            "fn": 10,
+            "tp": 290
+          },
+          "roc_auc": 0.9787,
+          "pr_auc": 0.9761
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.7067,
+          "precision": 0.9921,
+          "recall": 0.4167,
+          "f1": 0.5869,
+          "f0.5": 0.7774,
+          "confusion_matrix": {
+            "tn": 299,
+            "fp": 1,
+            "fn": 175,
+            "tp": 125
+          },
+          "roc_auc": 0.9787,
+          "pr_auc": 0.9761
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.8822,
+          "precision": 0.6833,
+          "recall": 0.9815,
+          "f1": 0.8057,
+          "f0.5": 0.7275,
+          "confusion_matrix": {
+            "tn": 3190,
+            "fp": 566,
+            "fn": 23,
+            "tp": 1221
+          },
+          "roc_auc": 0.9829,
+          "pr_auc": 0.9525
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.871,
+          "precision": 0.987,
+          "recall": 0.4879,
+          "f1": 0.653,
+          "f0.5": 0.8194,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 8,
+            "fn": 637,
+            "tp": 607
+          },
+          "roc_auc": 0.9829,
+          "pr_auc": 0.9525
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.9,
+          "precision": 0.8571,
+          "recall": 0.96,
+          "f1": 0.9057,
+          "f0.5": 0.8759,
+          "confusion_matrix": {
+            "tn": 42,
+            "fp": 8,
+            "fn": 2,
+            "tp": 48
+          },
+          "roc_auc": 0.976,
+          "pr_auc": 0.9778
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.72,
+          "precision": 1.0,
+          "recall": 0.44,
+          "f1": 0.6111,
+          "f0.5": 0.7971,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 28,
+            "tp": 22
+          },
+          "roc_auc": 0.976,
+          "pr_auc": 0.9778
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.9167,
+          "precision": 0.9921,
+          "recall": 0.84,
+          "f1": 0.9097,
+          "f0.5": 0.9574,
+          "confusion_matrix": {
+            "tn": 149,
+            "fp": 1,
+            "fn": 24,
+            "tp": 126
+          },
+          "roc_auc": 0.9887,
+          "pr_auc": 0.9897
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5133,
+          "precision": 1.0,
+          "recall": 0.0267,
+          "f1": 0.0519,
+          "f0.5": 0.1205,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 146,
+            "tp": 4
+          },
+          "roc_auc": 0.9887,
+          "pr_auc": 0.9897
+        },
+        "instigator_accuracy": 0.9933
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0098,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.1412,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0042,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.1298,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0123,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.999
+  },
+  "v2/ensemble": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.9078,
+          "precision": 0.7357,
+          "recall": 0.9897,
+          "f1": 0.844,
+          "f0.5": 0.7755,
+          "confusion_matrix": {
+            "tn": 3292,
+            "fp": 448,
+            "fn": 13,
+            "tp": 1247
+          },
+          "roc_auc": 0.9856,
+          "pr_auc": 0.9551
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.9856,
+          "pr_auc": 0.9551
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9212,
+          "precision": 0.7635,
+          "recall": 0.9928,
+          "f1": 0.8632,
+          "f0.5": 0.8005,
+          "confusion_matrix": {
+            "tn": 3363,
+            "fp": 385,
+            "fn": 9,
+            "tp": 1243
+          },
+          "roc_auc": 0.9896,
+          "pr_auc": 0.968
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9896,
+          "pr_auc": 0.968
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.9058,
+          "precision": 0.7451,
+          "recall": 0.9463,
+          "f1": 0.8337,
+          "f0.5": 0.7782,
+          "confusion_matrix": {
+            "tn": 3348,
+            "fp": 404,
+            "fn": 67,
+            "tp": 1181
+          },
+          "roc_auc": 0.9687,
+          "pr_auc": 0.9059
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.9687,
+          "pr_auc": 0.9059
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.9212,
+          "precision": 0.7635,
+          "recall": 0.9928,
+          "f1": 0.8632,
+          "f0.5": 0.8005,
+          "confusion_matrix": {
+            "tn": 3363,
+            "fp": 385,
+            "fn": 9,
+            "tp": 1243
+          },
+          "roc_auc": 0.9896,
+          "pr_auc": 0.968
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.9896,
+          "pr_auc": 0.968
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.9417,
+          "precision": 0.9288,
+          "recall": 0.9567,
+          "f1": 0.9425,
+          "f0.5": 0.9342,
+          "confusion_matrix": {
+            "tn": 278,
+            "fp": 22,
+            "fn": 13,
+            "tp": 287
+          },
+          "roc_auc": 0.9799,
+          "pr_auc": 0.9706
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.9799,
+          "pr_auc": 0.9706
+        },
+        "instigator_accuracy": 0.9967
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.9112,
+          "precision": 0.7478,
+          "recall": 0.9703,
+          "f1": 0.8446,
+          "f0.5": 0.7838,
+          "confusion_matrix": {
+            "tn": 3349,
+            "fp": 407,
+            "fn": 37,
+            "tp": 1207
+          },
+          "roc_auc": 0.9779,
+          "pr_auc": 0.9359
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.9779,
+          "pr_auc": 0.9359
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.89,
+          "precision": 0.8679,
+          "recall": 0.92,
+          "f1": 0.8932,
+          "f0.5": 0.8779,
+          "confusion_matrix": {
+            "tn": 43,
+            "fp": 7,
+            "fn": 4,
+            "tp": 46
+          },
+          "roc_auc": 0.9792,
+          "pr_auc": 0.9799
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.9792,
+          "pr_auc": 0.9799
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.9033,
+          "precision": 1.0,
+          "recall": 0.8067,
+          "f1": 0.893,
+          "f0.5": 0.9543,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 29,
+            "tp": 121
+          },
+          "roc_auc": 0.9863,
+          "pr_auc": 0.9898
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.9863,
+          "pr_auc": 0.9898
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.007,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0748,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0042,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0744,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.995
+  },
+  "v1/tfidf_lr": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7138,
+          "precision": 0.3827,
+          "recall": 0.2214,
+          "f1": 0.2805,
+          "f0.5": 0.3341,
+          "confusion_matrix": {
+            "tn": 3290,
+            "fp": 450,
+            "fn": 981,
+            "tp": 279
+          },
+          "roc_auc": 0.6319,
+          "pr_auc": 0.3396
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.6319,
+          "pr_auc": 0.3396
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7088,
+          "precision": 0.3555,
+          "recall": 0.2005,
+          "f1": 0.2564,
+          "f0.5": 0.3079,
+          "confusion_matrix": {
+            "tn": 3293,
+            "fp": 455,
+            "fn": 1001,
+            "tp": 251
+          },
+          "roc_auc": 0.6212,
+          "pr_auc": 0.3284
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6212,
+          "pr_auc": 0.3284
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.6952,
+          "precision": 0.2692,
+          "recall": 0.129,
+          "f1": 0.1744,
+          "f0.5": 0.2212,
+          "confusion_matrix": {
+            "tn": 3315,
+            "fp": 437,
+            "fn": 1087,
+            "tp": 161
+          },
+          "roc_auc": 0.5255,
+          "pr_auc": 0.2609
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.5255,
+          "pr_auc": 0.2609
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7088,
+          "precision": 0.3555,
+          "recall": 0.2005,
+          "f1": 0.2564,
+          "f0.5": 0.3079,
+          "confusion_matrix": {
+            "tn": 3293,
+            "fp": 455,
+            "fn": 1001,
+            "tp": 251
+          },
+          "roc_auc": 0.6212,
+          "pr_auc": 0.3284
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6212,
+          "pr_auc": 0.3284
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.465,
+          "precision": 0.3279,
+          "recall": 0.0667,
+          "f1": 0.1108,
+          "f0.5": 0.1838,
+          "confusion_matrix": {
+            "tn": 259,
+            "fp": 41,
+            "fn": 280,
+            "tp": 20
+          },
+          "roc_auc": 0.5489,
+          "pr_auc": 0.4969
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.5489,
+          "pr_auc": 0.4969
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7012,
+          "precision": 0.2964,
+          "recall": 0.1463,
+          "f1": 0.1959,
+          "f0.5": 0.2459,
+          "confusion_matrix": {
+            "tn": 3324,
+            "fp": 432,
+            "fn": 1062,
+            "tp": 182
+          },
+          "roc_auc": 0.5559,
+          "pr_auc": 0.2772
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.5559,
+          "pr_auc": 0.2772
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.52,
+          "precision": 0.6,
+          "recall": 0.12,
+          "f1": 0.2,
+          "f0.5": 0.3333,
+          "confusion_matrix": {
+            "tn": 46,
+            "fp": 4,
+            "fn": 44,
+            "tp": 6
+          },
+          "roc_auc": 0.64,
+          "pr_auc": 0.6044
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.64,
+          "pr_auc": 0.6044
+        },
+        "instigator_accuracy": 0.98
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.4967,
+          "precision": 0.4848,
+          "recall": 0.1067,
+          "f1": 0.1749,
+          "f0.5": 0.2837,
+          "confusion_matrix": {
+            "tn": 133,
+            "fp": 17,
+            "fn": 134,
+            "tp": 16
+          },
+          "roc_auc": 0.5953,
+          "pr_auc": 0.5547
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.5953,
+          "pr_auc": 0.5547
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.036,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0012,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.3162,
+        "fpr_at_tuned_t1": 0.003
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0675,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.2744,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.995
+  },
+  "v1/tfidf_svm": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7476,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3738,
+            "fp": 2,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.5863,
+          "pr_auc": 0.2968
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.5863,
+          "pr_auc": 0.2968
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.5754,
+          "pr_auc": 0.2886
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.5754,
+          "pr_auc": 0.2886
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.75,
+          "precision": 0.25,
+          "recall": 0.0008,
+          "f1": 0.0016,
+          "f0.5": 0.004,
+          "confusion_matrix": {
+            "tn": 3749,
+            "fp": 3,
+            "fn": 1247,
+            "tp": 1
+          },
+          "roc_auc": 0.487,
+          "pr_auc": 0.2369
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.487,
+          "pr_auc": 0.2369
+        },
+        "instigator_accuracy": 0.9976
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.5754,
+          "pr_auc": 0.2886
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.5754,
+          "pr_auc": 0.2886
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.4983,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 299,
+            "fp": 1,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.5087,
+          "pr_auc": 0.4681
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.5087,
+          "pr_auc": 0.4681
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7508,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3754,
+            "fp": 2,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.5172,
+          "pr_auc": 0.2504
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.5172,
+          "pr_auc": 0.2504
+        },
+        "instigator_accuracy": 0.9968
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.6076,
+          "pr_auc": 0.5792
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.6076,
+          "pr_auc": 0.5792
+        },
+        "instigator_accuracy": 0.98
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.5576,
+          "pr_auc": 0.5225
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.5576,
+          "pr_auc": 0.5225
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.002,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0474,
+        "fpr_at_tuned_t1": 0.0034
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.0323,
+        "fpr_at_tuned_t1": 0.0007
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.9
+  },
+  "v1/tfidf_cnb": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.6836,
+          "precision": 0.0031,
+          "recall": 0.0008,
+          "f1": 0.0013,
+          "f0.5": 0.002,
+          "confusion_matrix": {
+            "tn": 3417,
+            "fp": 323,
+            "fn": 1259,
+            "tp": 1
+          },
+          "roc_auc": 0.1535,
+          "pr_auc": 0.151
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.4644,
+          "precision": 0.011,
+          "recall": 0.0127,
+          "f1": 0.0118,
+          "f0.5": 0.0113,
+          "confusion_matrix": {
+            "tn": 2306,
+            "fp": 1434,
+            "fn": 1244,
+            "tp": 16
+          },
+          "roc_auc": 0.1535,
+          "pr_auc": 0.151
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6836,
+          "precision": 0.003,
+          "recall": 0.0008,
+          "f1": 0.0013,
+          "f0.5": 0.0019,
+          "confusion_matrix": {
+            "tn": 3417,
+            "fp": 331,
+            "fn": 1251,
+            "tp": 1
+          },
+          "roc_auc": 0.1559,
+          "pr_auc": 0.1503
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.4616,
+          "precision": 0.0122,
+          "recall": 0.0144,
+          "f1": 0.0132,
+          "f0.5": 0.0126,
+          "confusion_matrix": {
+            "tn": 2290,
+            "fp": 1458,
+            "fn": 1234,
+            "tp": 18
+          },
+          "roc_auc": 0.1559,
+          "pr_auc": 0.1503
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.681,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3405,
+            "fp": 347,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.1773,
+          "pr_auc": 0.1518
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.4782,
+          "precision": 0.0218,
+          "recall": 0.0248,
+          "f1": 0.0232,
+          "f0.5": 0.0223,
+          "confusion_matrix": {
+            "tn": 2360,
+            "fp": 1392,
+            "fn": 1217,
+            "tp": 31
+          },
+          "roc_auc": 0.1773,
+          "pr_auc": 0.1518
+        },
+        "instigator_accuracy": 0.9968
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6836,
+          "precision": 0.003,
+          "recall": 0.0008,
+          "f1": 0.0013,
+          "f0.5": 0.0019,
+          "confusion_matrix": {
+            "tn": 3417,
+            "fp": 331,
+            "fn": 1251,
+            "tp": 1
+          },
+          "roc_auc": 0.1559,
+          "pr_auc": 0.1503
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.4616,
+          "precision": 0.0122,
+          "recall": 0.0144,
+          "f1": 0.0132,
+          "f0.5": 0.0126,
+          "confusion_matrix": {
+            "tn": 2290,
+            "fp": 1458,
+            "fn": 1234,
+            "tp": 18
+          },
+          "roc_auc": 0.1559,
+          "pr_auc": 0.1503
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.4583,
+          "precision": 0.037,
+          "recall": 0.0033,
+          "f1": 0.0061,
+          "f0.5": 0.0123,
+          "confusion_matrix": {
+            "tn": 274,
+            "fp": 26,
+            "fn": 299,
+            "tp": 1
+          },
+          "roc_auc": 0.2428,
+          "pr_auc": 0.355
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.3433,
+          "precision": 0.0948,
+          "recall": 0.0367,
+          "f1": 0.0529,
+          "f0.5": 0.072,
+          "confusion_matrix": {
+            "tn": 195,
+            "fp": 105,
+            "fn": 289,
+            "tp": 11
+          },
+          "roc_auc": 0.2428,
+          "pr_auc": 0.355
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.686,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3430,
+            "fp": 326,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.1794,
+          "pr_auc": 0.1516
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.4798,
+          "precision": 0.0218,
+          "recall": 0.0249,
+          "f1": 0.0233,
+          "f0.5": 0.0224,
+          "confusion_matrix": {
+            "tn": 2368,
+            "fp": 1388,
+            "fn": 1213,
+            "tp": 31
+          },
+          "roc_auc": 0.1794,
+          "pr_auc": 0.1516
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 48,
+            "fp": 2,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.1704,
+          "pr_auc": 0.3424
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 41,
+            "fp": 9,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.1704,
+          "pr_auc": 0.3424
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.4733,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 142,
+            "fp": 8,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.1787,
+          "pr_auc": 0.3406
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.3733,
+          "precision": 0.0476,
+          "recall": 0.0133,
+          "f1": 0.0208,
+          "f0.5": 0.0314,
+          "confusion_matrix": {
+            "tn": 110,
+            "fp": 40,
+            "fn": 148,
+            "tp": 2
+          },
+          "roc_auc": 0.1787,
+          "pr_auc": 0.3406
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0166,
+        "fpr_at_tuned_t1": 0.0692
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0037
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.281,
+        "fpr_at_tuned_t1": 0.653
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0124
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0127,
+        "fpr_at_tuned_t1": 0.1646
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.2042,
+        "fpr_at_tuned_t1": 0.5319
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0053
+      }
+    },
+    "t1": 0.2
+  },
+  "v1/char_lr": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7388,
+          "precision": 0.4829,
+          "recall": 0.5159,
+          "f1": 0.4988,
+          "f0.5": 0.4892,
+          "confusion_matrix": {
+            "tn": 3044,
+            "fp": 696,
+            "fn": 610,
+            "tp": 650
+          },
+          "roc_auc": 0.7426,
+          "pr_auc": 0.5274
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.7426,
+          "pr_auc": 0.5274
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7376,
+          "precision": 0.4767,
+          "recall": 0.4904,
+          "f1": 0.4835,
+          "f0.5": 0.4794,
+          "confusion_matrix": {
+            "tn": 3074,
+            "fp": 674,
+            "fn": 638,
+            "tp": 614
+          },
+          "roc_auc": 0.7318,
+          "pr_auc": 0.5079
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.7318,
+          "pr_auc": 0.5079
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.694,
+          "precision": 0.3716,
+          "recall": 0.3269,
+          "f1": 0.3478,
+          "f0.5": 0.3617,
+          "confusion_matrix": {
+            "tn": 3062,
+            "fp": 690,
+            "fn": 840,
+            "tp": 408
+          },
+          "roc_auc": 0.6208,
+          "pr_auc": 0.3956
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.6208,
+          "pr_auc": 0.3956
+        },
+        "instigator_accuracy": 0.996
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7376,
+          "precision": 0.4767,
+          "recall": 0.4904,
+          "f1": 0.4835,
+          "f0.5": 0.4794,
+          "confusion_matrix": {
+            "tn": 3074,
+            "fp": 674,
+            "fn": 638,
+            "tp": 614
+          },
+          "roc_auc": 0.7318,
+          "pr_auc": 0.5079
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.7318,
+          "pr_auc": 0.5079
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5317,
+          "precision": 0.5905,
+          "recall": 0.2067,
+          "f1": 0.3062,
+          "f0.5": 0.4306,
+          "confusion_matrix": {
+            "tn": 257,
+            "fp": 43,
+            "fn": 238,
+            "tp": 62
+          },
+          "roc_auc": 0.5889,
+          "pr_auc": 0.5545
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.5889,
+          "pr_auc": 0.5545
+        },
+        "instigator_accuracy": 0.9867
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.6998,
+          "precision": 0.393,
+          "recall": 0.3794,
+          "f1": 0.3861,
+          "f0.5": 0.3902,
+          "confusion_matrix": {
+            "tn": 3027,
+            "fp": 729,
+            "fn": 772,
+            "tp": 472
+          },
+          "roc_auc": 0.6567,
+          "pr_auc": 0.4334
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.6567,
+          "pr_auc": 0.4334
+        },
+        "instigator_accuracy": 0.9928
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.58,
+          "precision": 0.9,
+          "recall": 0.18,
+          "f1": 0.3,
+          "f0.5": 0.5,
+          "confusion_matrix": {
+            "tn": 49,
+            "fp": 1,
+            "fn": 41,
+            "tp": 9
+          },
+          "roc_auc": 0.7832,
+          "pr_auc": 0.766
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.7832,
+          "pr_auc": 0.766
+        },
+        "instigator_accuracy": 0.98
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.56,
+          "precision": 0.9091,
+          "recall": 0.1333,
+          "f1": 0.2326,
+          "f0.5": 0.4202,
+          "confusion_matrix": {
+            "tn": 148,
+            "fp": 2,
+            "fn": 130,
+            "tp": 20
+          },
+          "roc_auc": 0.8145,
+          "pr_auc": 0.8034
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.8145,
+          "pr_auc": 0.8034
+        },
+        "instigator_accuracy": 0.9933
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0274,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0012,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.1282,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.1593,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.999
+  },
+  "v1/behavioral_hgb": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.4594,
+          "precision": 0.2635,
+          "recall": 0.6381,
+          "f1": 0.373,
+          "f0.5": 0.2986,
+          "confusion_matrix": {
+            "tn": 1493,
+            "fp": 2247,
+            "fn": 456,
+            "tp": 804
+          },
+          "roc_auc": 0.6133,
+          "pr_auc": 0.5569
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.6133,
+          "pr_auc": 0.5569
+        },
+        "instigator_accuracy": 0.9619
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.463,
+          "precision": 0.2617,
+          "recall": 0.6286,
+          "f1": 0.3696,
+          "f0.5": 0.2963,
+          "confusion_matrix": {
+            "tn": 1528,
+            "fp": 2220,
+            "fn": 465,
+            "tp": 787
+          },
+          "roc_auc": 0.6027,
+          "pr_auc": 0.5469
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6027,
+          "pr_auc": 0.5469
+        },
+        "instigator_accuracy": 0.9633
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.5234,
+          "precision": 0.3209,
+          "recall": 0.8149,
+          "f1": 0.4605,
+          "f0.5": 0.3652,
+          "confusion_matrix": {
+            "tn": 1600,
+            "fp": 2152,
+            "fn": 231,
+            "tp": 1017
+          },
+          "roc_auc": 0.7772,
+          "pr_auc": 0.7073
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.7772,
+          "pr_auc": 0.7073
+        },
+        "instigator_accuracy": 0.9014
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.463,
+          "precision": 0.2617,
+          "recall": 0.6286,
+          "f1": 0.3696,
+          "f0.5": 0.2963,
+          "confusion_matrix": {
+            "tn": 1528,
+            "fp": 2220,
+            "fn": 465,
+            "tp": 787
+          },
+          "roc_auc": 0.6027,
+          "pr_auc": 0.5469
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6027,
+          "pr_auc": 0.5469
+        },
+        "instigator_accuracy": 0.9633
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5783,
+          "precision": 0.5644,
+          "recall": 0.6867,
+          "f1": 0.6195,
+          "f0.5": 0.5852,
+          "confusion_matrix": {
+            "tn": 141,
+            "fp": 159,
+            "fn": 94,
+            "tp": 206
+          },
+          "roc_auc": 0.5913,
+          "pr_auc": 0.6405
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.5913,
+          "pr_auc": 0.6405
+        },
+        "instigator_accuracy": 0.92
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.4882,
+          "precision": 0.2933,
+          "recall": 0.75,
+          "f1": 0.4217,
+          "f0.5": 0.334,
+          "confusion_matrix": {
+            "tn": 1508,
+            "fp": 2248,
+            "fn": 311,
+            "tp": 933
+          },
+          "roc_auc": 0.7198,
+          "pr_auc": 0.6616
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.7198,
+          "pr_auc": 0.6616
+        },
+        "instigator_accuracy": 0.9124
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.79,
+          "precision": 0.8537,
+          "recall": 0.7,
+          "f1": 0.7692,
+          "f0.5": 0.8178,
+          "confusion_matrix": {
+            "tn": 44,
+            "fp": 6,
+            "fn": 15,
+            "tp": 35
+          },
+          "roc_auc": 0.7952,
+          "pr_auc": 0.8686
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.7952,
+          "pr_auc": 0.8686
+        },
+        "instigator_accuracy": 0.88
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.77,
+          "precision": 0.7832,
+          "recall": 0.7467,
+          "f1": 0.7645,
+          "f0.5": 0.7756,
+          "confusion_matrix": {
+            "tn": 119,
+            "fp": 31,
+            "fn": 38,
+            "tp": 112
+          },
+          "roc_auc": 0.7459,
+          "pr_auc": 0.839
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.7459,
+          "pr_auc": 0.839
+        },
+        "instigator_accuracy": 0.9267
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.2058,
+        "fpr_at_tuned_t1": 0.0002
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0237,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.7514,
+        "fpr_at_tuned_t1": 0.0004
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.5353,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.4051,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.7214,
+        "fpr_at_tuned_t1": 0.0014
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.1684,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.98
+  },
+  "v1/distilbert": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.591,
+          "precision": 0.3609,
+          "recall": 0.8079,
+          "f1": 0.4989,
+          "f0.5": 0.4058,
+          "confusion_matrix": {
+            "tn": 1937,
+            "fp": 1803,
+            "fn": 242,
+            "tp": 1018
+          },
+          "roc_auc": 0.7377,
+          "pr_auc": 0.5635
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.7708,
+          "precision": 1.0,
+          "recall": 0.0905,
+          "f1": 0.1659,
+          "f0.5": 0.3322,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1146,
+            "tp": 114
+          },
+          "roc_auc": 0.7377,
+          "pr_auc": 0.5635
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.5856,
+          "precision": 0.3532,
+          "recall": 0.7875,
+          "f1": 0.4876,
+          "f0.5": 0.3969,
+          "confusion_matrix": {
+            "tn": 1942,
+            "fp": 1806,
+            "fn": 266,
+            "tp": 986
+          },
+          "roc_auc": 0.7324,
+          "pr_auc": 0.5496
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7698,
+          "precision": 1.0,
+          "recall": 0.0807,
+          "f1": 0.1493,
+          "f0.5": 0.305,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1151,
+            "tp": 101
+          },
+          "roc_auc": 0.7324,
+          "pr_auc": 0.5496
+        },
+        "instigator_accuracy": 0.9968
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.5568,
+          "precision": 0.3131,
+          "recall": 0.6498,
+          "f1": 0.4226,
+          "f0.5": 0.3493,
+          "confusion_matrix": {
+            "tn": 1973,
+            "fp": 1779,
+            "fn": 437,
+            "tp": 811
+          },
+          "roc_auc": 0.6409,
+          "pr_auc": 0.4176
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7524,
+          "precision": 1.0,
+          "recall": 0.008,
+          "f1": 0.0159,
+          "f0.5": 0.0388,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1238,
+            "tp": 10
+          },
+          "roc_auc": 0.6409,
+          "pr_auc": 0.4176
+        },
+        "instigator_accuracy": 0.9968
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.5856,
+          "precision": 0.3532,
+          "recall": 0.7875,
+          "f1": 0.4876,
+          "f0.5": 0.3969,
+          "confusion_matrix": {
+            "tn": 1942,
+            "fp": 1806,
+            "fn": 266,
+            "tp": 986
+          },
+          "roc_auc": 0.7324,
+          "pr_auc": 0.5496
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7698,
+          "precision": 1.0,
+          "recall": 0.0807,
+          "f1": 0.1493,
+          "f0.5": 0.305,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1151,
+            "tp": 101
+          },
+          "roc_auc": 0.7324,
+          "pr_auc": 0.5496
+        },
+        "instigator_accuracy": 0.9968
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.6067,
+          "precision": 0.6203,
+          "recall": 0.55,
+          "f1": 0.583,
+          "f0.5": 0.6048,
+          "confusion_matrix": {
+            "tn": 199,
+            "fp": 101,
+            "fn": 135,
+            "tp": 165
+          },
+          "roc_auc": 0.6425,
+          "pr_auc": 0.64
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5017,
+          "precision": 1.0,
+          "recall": 0.0033,
+          "f1": 0.0066,
+          "f0.5": 0.0164,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 299,
+            "tp": 1
+          },
+          "roc_auc": 0.6425,
+          "pr_auc": 0.64
+        },
+        "instigator_accuracy": 0.9967
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.569,
+          "precision": 0.3253,
+          "recall": 0.6817,
+          "f1": 0.4404,
+          "f0.5": 0.3633,
+          "confusion_matrix": {
+            "tn": 1997,
+            "fp": 1759,
+            "fn": 396,
+            "tp": 848
+          },
+          "roc_auc": 0.6646,
+          "pr_auc": 0.4403
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7582,
+          "precision": 1.0,
+          "recall": 0.0281,
+          "f1": 0.0547,
+          "f0.5": 0.1264,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1209,
+            "tp": 35
+          },
+          "roc_auc": 0.6646,
+          "pr_auc": 0.4403
+        },
+        "instigator_accuracy": 0.9928
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.58,
+          "precision": 0.625,
+          "recall": 0.4,
+          "f1": 0.4878,
+          "f0.5": 0.5618,
+          "confusion_matrix": {
+            "tn": 38,
+            "fp": 12,
+            "fn": 30,
+            "tp": 20
+          },
+          "roc_auc": 0.7212,
+          "pr_auc": 0.7241
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.7212,
+          "pr_auc": 0.7241
+        },
+        "instigator_accuracy": 0.96
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.4867,
+          "precision": 0.4737,
+          "recall": 0.24,
+          "f1": 0.3186,
+          "f0.5": 0.3965,
+          "confusion_matrix": {
+            "tn": 110,
+            "fp": 40,
+            "fn": 114,
+            "tp": 36
+          },
+          "roc_auc": 0.5442,
+          "pr_auc": 0.5264
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.5442,
+          "pr_auc": 0.5264
+        },
+        "instigator_accuracy": 0.9933
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0716,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0025,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.4246,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0041,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0084,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.44,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0105,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.998
+  },
+  "v1/ensemble": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.6208,
+          "precision": 0.3735,
+          "recall": 0.7452,
+          "f1": 0.4976,
+          "f0.5": 0.4149,
+          "confusion_matrix": {
+            "tn": 2165,
+            "fp": 1575,
+            "fn": 321,
+            "tp": 939
+          },
+          "roc_auc": 0.6891,
+          "pr_auc": 0.3759
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.6891,
+          "pr_auc": 0.3759
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6098,
+          "precision": 0.3611,
+          "recall": 0.726,
+          "f1": 0.4824,
+          "f0.5": 0.4015,
+          "confusion_matrix": {
+            "tn": 2140,
+            "fp": 1608,
+            "fn": 343,
+            "tp": 909
+          },
+          "roc_auc": 0.6833,
+          "pr_auc": 0.3712
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6833,
+          "pr_auc": 0.3712
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.5818,
+          "precision": 0.3152,
+          "recall": 0.5761,
+          "f1": 0.4075,
+          "f0.5": 0.3466,
+          "confusion_matrix": {
+            "tn": 2190,
+            "fp": 1562,
+            "fn": 529,
+            "tp": 719
+          },
+          "roc_auc": 0.593,
+          "pr_auc": 0.2948
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7504,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1248,
+            "tp": 0
+          },
+          "roc_auc": 0.593,
+          "pr_auc": 0.2948
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6098,
+          "precision": 0.3611,
+          "recall": 0.726,
+          "f1": 0.4824,
+          "f0.5": 0.4015,
+          "confusion_matrix": {
+            "tn": 2140,
+            "fp": 1608,
+            "fn": 343,
+            "tp": 909
+          },
+          "roc_auc": 0.6833,
+          "pr_auc": 0.3712
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.6833,
+          "pr_auc": 0.3712
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.595,
+          "precision": 0.6223,
+          "recall": 0.4833,
+          "f1": 0.5441,
+          "f0.5": 0.5885,
+          "confusion_matrix": {
+            "tn": 212,
+            "fp": 88,
+            "fn": 155,
+            "tp": 145
+          },
+          "roc_auc": 0.6077,
+          "pr_auc": 0.5447
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.6077,
+          "pr_auc": 0.5447
+        },
+        "instigator_accuracy": 0.9967
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.5924,
+          "precision": 0.3287,
+          "recall": 0.6125,
+          "f1": 0.4278,
+          "f0.5": 0.3623,
+          "confusion_matrix": {
+            "tn": 2200,
+            "fp": 1556,
+            "fn": 482,
+            "tp": 762
+          },
+          "roc_auc": 0.6189,
+          "pr_auc": 0.3103
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.6189,
+          "pr_auc": 0.3103
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.59,
+          "precision": 0.6452,
+          "recall": 0.4,
+          "f1": 0.4938,
+          "f0.5": 0.5747,
+          "confusion_matrix": {
+            "tn": 39,
+            "fp": 11,
+            "fn": 30,
+            "tp": 20
+          },
+          "roc_auc": 0.6808,
+          "pr_auc": 0.6546
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.6808,
+          "pr_auc": 0.6546
+        },
+        "instigator_accuracy": 0.98
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5033,
+          "precision": 0.5079,
+          "recall": 0.2133,
+          "f1": 0.3005,
+          "f0.5": 0.398,
+          "confusion_matrix": {
+            "tn": 119,
+            "fp": 31,
+            "fn": 118,
+            "tp": 32
+          },
+          "roc_auc": 0.5587,
+          "pr_auc": 0.5219
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.5587,
+          "pr_auc": 0.5219
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0614,
+        "fpr_at_tuned_t1": 0.0004
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0012,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.3952,
+        "fpr_at_tuned_t1": 0.0038
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0084,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.4119,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0018,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.99
+  },
+  "v1/tfidf_cnb_aug": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.6944,
+          "precision": 0.3589,
+          "recall": 0.2706,
+          "f1": 0.3086,
+          "f0.5": 0.337,
+          "confusion_matrix": {
+            "tn": 3131,
+            "fp": 609,
+            "fn": 919,
+            "tp": 341
+          },
+          "roc_auc": 0.6116,
+          "pr_auc": 0.3194
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.6706,
+          "precision": 0.354,
+          "recall": 0.3722,
+          "f1": 0.3629,
+          "f0.5": 0.3575,
+          "confusion_matrix": {
+            "tn": 2884,
+            "fp": 856,
+            "fn": 791,
+            "tp": 469
+          },
+          "roc_auc": 0.6116,
+          "pr_auc": 0.3194
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6834,
+          "precision": 0.3289,
+          "recall": 0.254,
+          "f1": 0.2866,
+          "f0.5": 0.3105,
+          "confusion_matrix": {
+            "tn": 3099,
+            "fp": 649,
+            "fn": 934,
+            "tp": 318
+          },
+          "roc_auc": 0.5894,
+          "pr_auc": 0.2997
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6602,
+          "precision": 0.3321,
+          "recall": 0.353,
+          "f1": 0.3422,
+          "f0.5": 0.3361,
+          "confusion_matrix": {
+            "tn": 2859,
+            "fp": 889,
+            "fn": 810,
+            "tp": 442
+          },
+          "roc_auc": 0.5894,
+          "pr_auc": 0.2997
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.6588,
+          "precision": 0.2248,
+          "recall": 0.1498,
+          "f1": 0.1798,
+          "f0.5": 0.2043,
+          "confusion_matrix": {
+            "tn": 3107,
+            "fp": 645,
+            "fn": 1061,
+            "tp": 187
+          },
+          "roc_auc": 0.4803,
+          "pr_auc": 0.2334
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.6302,
+          "precision": 0.2394,
+          "recall": 0.2212,
+          "f1": 0.2299,
+          "f0.5": 0.2355,
+          "confusion_matrix": {
+            "tn": 2875,
+            "fp": 877,
+            "fn": 972,
+            "tp": 276
+          },
+          "roc_auc": 0.4803,
+          "pr_auc": 0.2334
+        },
+        "instigator_accuracy": 0.9984
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6834,
+          "precision": 0.3289,
+          "recall": 0.254,
+          "f1": 0.2866,
+          "f0.5": 0.3105,
+          "confusion_matrix": {
+            "tn": 3099,
+            "fp": 649,
+            "fn": 934,
+            "tp": 318
+          },
+          "roc_auc": 0.5894,
+          "pr_auc": 0.2997
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.6602,
+          "precision": 0.3321,
+          "recall": 0.353,
+          "f1": 0.3422,
+          "f0.5": 0.3361,
+          "confusion_matrix": {
+            "tn": 2859,
+            "fp": 889,
+            "fn": 810,
+            "tp": 442
+          },
+          "roc_auc": 0.5894,
+          "pr_auc": 0.2997
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.4917,
+          "precision": 0.4757,
+          "recall": 0.1633,
+          "f1": 0.2432,
+          "f0.5": 0.3441,
+          "confusion_matrix": {
+            "tn": 246,
+            "fp": 54,
+            "fn": 251,
+            "tp": 49
+          },
+          "roc_auc": 0.5328,
+          "pr_auc": 0.5083
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.4967,
+          "precision": 0.4936,
+          "recall": 0.2567,
+          "f1": 0.3377,
+          "f0.5": 0.4167,
+          "confusion_matrix": {
+            "tn": 221,
+            "fp": 79,
+            "fn": 223,
+            "tp": 77
+          },
+          "roc_auc": 0.5328,
+          "pr_auc": 0.5083
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.675,
+          "precision": 0.2668,
+          "recall": 0.1752,
+          "f1": 0.2115,
+          "f0.5": 0.2416,
+          "confusion_matrix": {
+            "tn": 3157,
+            "fp": 599,
+            "fn": 1026,
+            "tp": 218
+          },
+          "roc_auc": 0.5198,
+          "pr_auc": 0.256
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.6412,
+          "precision": 0.2633,
+          "recall": 0.246,
+          "f1": 0.2544,
+          "f0.5": 0.2597,
+          "confusion_matrix": {
+            "tn": 2900,
+            "fp": 856,
+            "fn": 938,
+            "tp": 306
+          },
+          "roc_auc": 0.5198,
+          "pr_auc": 0.256
+        },
+        "instigator_accuracy": 0.9992
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.47,
+          "precision": 0.4,
+          "recall": 0.12,
+          "f1": 0.1846,
+          "f0.5": 0.2727,
+          "confusion_matrix": {
+            "tn": 41,
+            "fp": 9,
+            "fn": 44,
+            "tp": 6
+          },
+          "roc_auc": 0.4484,
+          "pr_auc": 0.4685
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.48,
+          "precision": 0.4444,
+          "recall": 0.16,
+          "f1": 0.2353,
+          "f0.5": 0.3279,
+          "confusion_matrix": {
+            "tn": 40,
+            "fp": 10,
+            "fn": 42,
+            "tp": 8
+          },
+          "roc_auc": 0.4484,
+          "pr_auc": 0.4685
+        },
+        "instigator_accuracy": 0.98
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.4967,
+          "precision": 0.4865,
+          "recall": 0.12,
+          "f1": 0.1925,
+          "f0.5": 0.302,
+          "confusion_matrix": {
+            "tn": 131,
+            "fp": 19,
+            "fn": 132,
+            "tp": 18
+          },
+          "roc_auc": 0.4817,
+          "pr_auc": 0.4813
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.4833,
+          "precision": 0.4576,
+          "recall": 0.18,
+          "f1": 0.2584,
+          "f0.5": 0.3497,
+          "confusion_matrix": {
+            "tn": 118,
+            "fp": 32,
+            "fn": 123,
+            "tp": 27
+          },
+          "roc_auc": 0.4817,
+          "pr_auc": 0.4813
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0178,
+        "fpr_at_tuned_t1": 0.0284
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.2912,
+        "fpr_at_tuned_t1": 0.3966
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0084,
+        "fpr_at_tuned_t1": 0.0549
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.2218,
+        "fpr_at_tuned_t1": 0.3214
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.4
+  },
+  "v1/tfidf_lr_aug": {
+    "per_input_type": {
+      "chat": {
+        "n": 5000,
+        "positives": 1260,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.8116,
+          "precision": 0.6109,
+          "recall": 0.6952,
+          "f1": 0.6503,
+          "f0.5": 0.6261,
+          "confusion_matrix": {
+            "tn": 3182,
+            "fp": 558,
+            "fn": 384,
+            "tp": 876
+          },
+          "roc_auc": 0.8579,
+          "pr_auc": 0.6721
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1260,
+          "accuracy": 0.748,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3740,
+            "fp": 0,
+            "fn": 1260,
+            "tp": 0
+          },
+          "roc_auc": 0.8579,
+          "pr_auc": 0.6721
+        },
+        "instigator_accuracy": 1.0
+      },
+      "docx": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.8054,
+          "precision": 0.5991,
+          "recall": 0.6733,
+          "f1": 0.6341,
+          "f0.5": 0.6126,
+          "confusion_matrix": {
+            "tn": 3184,
+            "fp": 564,
+            "fn": 409,
+            "tp": 843
+          },
+          "roc_auc": 0.8536,
+          "pr_auc": 0.6474
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.8536,
+          "pr_auc": 0.6474
+        },
+        "instigator_accuracy": 1.0
+      },
+      "email": {
+        "n": 5000,
+        "positives": 1248,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7374,
+          "precision": 0.4695,
+          "recall": 0.4014,
+          "f1": 0.4328,
+          "f0.5": 0.4541,
+          "confusion_matrix": {
+            "tn": 3186,
+            "fp": 566,
+            "fn": 747,
+            "tp": 501
+          },
+          "roc_auc": 0.728,
+          "pr_auc": 0.4443
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1248,
+          "accuracy": 0.7506,
+          "precision": 1.0,
+          "recall": 0.0008,
+          "f1": 0.0016,
+          "f0.5": 0.004,
+          "confusion_matrix": {
+            "tn": 3752,
+            "fp": 0,
+            "fn": 1247,
+            "tp": 1
+          },
+          "roc_auc": 0.728,
+          "pr_auc": 0.4443
+        },
+        "instigator_accuracy": 1.0
+      },
+      "pdf": {
+        "n": 5000,
+        "positives": 1252,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.8054,
+          "precision": 0.5991,
+          "recall": 0.6733,
+          "f1": 0.6341,
+          "f0.5": 0.6126,
+          "confusion_matrix": {
+            "tn": 3184,
+            "fp": 564,
+            "fn": 409,
+            "tp": 843
+          },
+          "roc_auc": 0.8536,
+          "pr_auc": 0.6474
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1252,
+          "accuracy": 0.7496,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3748,
+            "fp": 0,
+            "fn": 1252,
+            "tp": 0
+          },
+          "roc_auc": 0.8536,
+          "pr_auc": 0.6474
+        },
+        "instigator_accuracy": 1.0
+      },
+      "screenshot": {
+        "n": 600,
+        "positives": 300,
+        "at_0.5": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.62,
+          "precision": 0.7093,
+          "recall": 0.4067,
+          "f1": 0.5169,
+          "f0.5": 0.6174,
+          "confusion_matrix": {
+            "tn": 250,
+            "fp": 50,
+            "fn": 178,
+            "tp": 122
+          },
+          "roc_auc": 0.7257,
+          "pr_auc": 0.686
+        },
+        "at_tuned_t1": {
+          "n": 600,
+          "positives": 300,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 300,
+            "fp": 0,
+            "fn": 300,
+            "tp": 0
+          },
+          "roc_auc": 0.7257,
+          "pr_auc": 0.686
+        },
+        "instigator_accuracy": 1.0
+      },
+      "sms": {
+        "n": 5000,
+        "positives": 1244,
+        "at_0.5": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7626,
+          "precision": 0.5259,
+          "recall": 0.4646,
+          "f1": 0.4934,
+          "f0.5": 0.5124,
+          "confusion_matrix": {
+            "tn": 3235,
+            "fp": 521,
+            "fn": 666,
+            "tp": 578
+          },
+          "roc_auc": 0.7765,
+          "pr_auc": 0.5034
+        },
+        "at_tuned_t1": {
+          "n": 5000,
+          "positives": 1244,
+          "accuracy": 0.7512,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 3756,
+            "fp": 0,
+            "fn": 1244,
+            "tp": 0
+          },
+          "roc_auc": 0.7765,
+          "pr_auc": 0.5034
+        },
+        "instigator_accuracy": 1.0
+      },
+      "video": {
+        "n": 100,
+        "positives": 50,
+        "at_0.5": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.63,
+          "precision": 0.7407,
+          "recall": 0.4,
+          "f1": 0.5195,
+          "f0.5": 0.6329,
+          "confusion_matrix": {
+            "tn": 43,
+            "fp": 7,
+            "fn": 30,
+            "tp": 20
+          },
+          "roc_auc": 0.7876,
+          "pr_auc": 0.7653
+        },
+        "at_tuned_t1": {
+          "n": 100,
+          "positives": 50,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 50,
+            "fp": 0,
+            "fn": 50,
+            "tp": 0
+          },
+          "roc_auc": 0.7876,
+          "pr_auc": 0.7653
+        },
+        "instigator_accuracy": 1.0
+      },
+      "voice_note": {
+        "n": 300,
+        "positives": 150,
+        "at_0.5": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.66,
+          "precision": 0.75,
+          "recall": 0.48,
+          "f1": 0.5854,
+          "f0.5": 0.6742,
+          "confusion_matrix": {
+            "tn": 126,
+            "fp": 24,
+            "fn": 78,
+            "tp": 72
+          },
+          "roc_auc": 0.7885,
+          "pr_auc": 0.7574
+        },
+        "at_tuned_t1": {
+          "n": 300,
+          "positives": 150,
+          "accuracy": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "confusion_matrix": {
+            "tn": 150,
+            "fp": 0,
+            "fn": 150,
+            "tp": 0
+          },
+          "roc_auc": 0.7885,
+          "pr_auc": 0.7574
+        },
+        "instigator_accuracy": 1.0
+      }
+    },
+    "false_alarms_real": {
+      "enron": {
+        "n": 5000,
+        "fpr_at_0.5": 0.0334,
+        "fpr_at_tuned_t1": 0.0002
+      },
+      "ham_email": {
+        "n": 801,
+        "fpr_at_0.5": 0.0012,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "nus_sms": {
+        "n": 5000,
+        "fpr_at_0.5": 0.2864,
+        "fpr_at_tuned_t1": 0.004
+      },
+      "phishing": {
+        "n": 241,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_spam_uci": {
+        "n": 237,
+        "fpr_at_0.5": 0.0675,
+        "fpr_at_tuned_t1": 0.0
+      },
+      "sms_uci": {
+        "n": 1425,
+        "fpr_at_0.5": 0.2547,
+        "fpr_at_tuned_t1": 0.0007
+      },
+      "spam_email": {
+        "n": 570,
+        "fpr_at_0.5": 0.0,
+        "fpr_at_tuned_t1": 0.0
+      }
+    },
+    "t1": 0.99
+  }
+}

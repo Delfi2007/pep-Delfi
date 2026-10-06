@@ -1,0 +1,8 @@
+{
+  "documents": 50,
+  "words": 8510,
+  "word_cer": 0.1882,
+  "word_accuracy": 0.565,
+  "page_bag_of_words_f1": 0.1966,
+  "elapsed_seconds": 297
+}

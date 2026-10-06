@@ -1,0 +1,119 @@
+{
+  "images": 500,
+  "threshold": 10,
+  "transforms": {
+    "jpeg_q90": "JPEG re-save, quality 90",
+    "jpeg_q50": "JPEG re-save, quality 50",
+    "jpeg_q20": "JPEG re-save, quality 20",
+    "resize_50": "Resized to 50%",
+    "resize_25": "Resized to 25%",
+    "crop_5": "Cropped 5% each side",
+    "crop_15": "Cropped 15% each side",
+    "rotate_3": "Rotated 3\u00b0",
+    "brightness_+30": "Brightness +30%",
+    "contrast_+40": "Contrast +40%",
+    "blur_r2": "Gaussian blur r=2",
+    "noise_s10": "Gaussian noise \u03c3=10",
+    "grayscale": "Converted to greyscale",
+    "watermark": "Caption / watermark overlay",
+    "border_8pct": "Black border (screenshot-style)",
+    "flip_h": "Mirrored horizontally"
+  },
+  "per_transform": {
+    "sha256": {
+      "jpeg_q90": 0.0,
+      "jpeg_q50": 0.0,
+      "jpeg_q20": 0.0,
+      "resize_50": 0.0,
+      "resize_25": 0.0,
+      "crop_5": 0.0,
+      "crop_15": 0.0,
+      "rotate_3": 0.0,
+      "brightness_+30": 0.0,
+      "contrast_+40": 0.0,
+      "blur_r2": 0.0,
+      "noise_s10": 0.0,
+      "grayscale": 0.0,
+      "watermark": 0.0,
+      "border_8pct": 0.0,
+      "flip_h": 0.0
+    },
+    "ahash": {
+      "jpeg_q90": 1.0,
+      "jpeg_q50": 1.0,
+      "jpeg_q20": 1.0,
+      "resize_50": 1.0,
+      "resize_25": 1.0,
+      "crop_5": 0.932,
+      "crop_15": 0.246,
+      "rotate_3": 0.982,
+      "brightness_+30": 0.998,
+      "contrast_+40": 1.0,
+      "blur_r2": 1.0,
+      "noise_s10": 1.0,
+      "grayscale": 1.0,
+      "watermark": 0.488,
+      "border_8pct": 0.106,
+      "flip_h": 0.168
+    },
+    "dhash": {
+      "jpeg_q90": 1.0,
+      "jpeg_q50": 1.0,
+      "jpeg_q20": 1.0,
+      "resize_50": 1.0,
+      "resize_25": 1.0,
+      "crop_5": 0.61,
+      "crop_15": 0.002,
+      "rotate_3": 0.9,
+      "brightness_+30": 0.988,
+      "contrast_+40": 0.998,
+      "blur_r2": 1.0,
+      "noise_s10": 1.0,
+      "grayscale": 1.0,
+      "watermark": 0.998,
+      "border_8pct": 0.112,
+      "flip_h": 0.002
+    },
+    "phash": {
+      "jpeg_q90": 1.0,
+      "jpeg_q50": 1.0,
+      "jpeg_q20": 1.0,
+      "resize_50": 1.0,
+      "resize_25": 1.0,
+      "crop_5": 0.608,
+      "crop_15": 0.004,
+      "rotate_3": 0.798,
+      "brightness_+30": 0.996,
+      "contrast_+40": 1.0,
+      "blur_r2": 1.0,
+      "noise_s10": 1.0,
+      "grayscale": 1.0,
+      "watermark": 0.374,
+      "border_8pct": 0.036,
+      "flip_h": 0.0
+    }
+  },
+  "summary": {
+    "ahash": {
+      "match_rate": 0.8075,
+      "false_match_rate": 0.006264,
+      "roc_auc": 0.9695
+    },
+    "dhash": {
+      "match_rate": 0.7881,
+      "false_match_rate": 0.0,
+      "roc_auc": 0.9609
+    },
+    "phash": {
+      "match_rate": 0.7385,
+      "false_match_rate": 0.0,
+      "roc_auc": 0.9549
+    },
+    "sha256": {
+      "match_rate": 0.0,
+      "false_match_rate": 0.0,
+      "roc_auc": null
+    }
+  },
+  "elapsed_seconds": 225
+}

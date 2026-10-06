@@ -1,0 +1,11 @@
+{
+  "voice": {
+    "B": {
+      "conversations": 300,
+      "voice_notes": 2988,
+      "seconds": 1165
+    }
+  },
+  "voice_note_wer": 0.1206,
+  "elapsed_seconds": 1171
+}

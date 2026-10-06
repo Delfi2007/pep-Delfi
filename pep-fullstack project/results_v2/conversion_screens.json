@@ -1,0 +1,14 @@
+{
+  "screens": {
+    "A": {
+      "n": 600,
+      "seconds": 369
+    },
+    "B": {
+      "n": 600,
+      "seconds": 381
+    }
+  },
+  "screenshot_cer_mean": 0.0181,
+  "elapsed_seconds": 751
+}

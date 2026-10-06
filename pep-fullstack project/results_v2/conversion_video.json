@@ -1,0 +1,14 @@
+{
+  "video": {
+    "A": {
+      "videos": 100,
+      "seconds": 492
+    },
+    "B": {
+      "videos": 100,
+      "seconds": 404
+    }
+  },
+  "video_audio_wer": 0.0974,
+  "elapsed_seconds": 899
+}

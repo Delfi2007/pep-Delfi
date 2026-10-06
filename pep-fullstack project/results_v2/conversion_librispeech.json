@@ -1,0 +1,8 @@
+{
+  "utterances": 500,
+  "wer": 0.0267,
+  "cer": 0.0105,
+  "audio_hours_est": 1.04,
+  "seconds": 731,
+  "elapsed_seconds": 731
+}

@@ -1,0 +1,15 @@
+{
+  "records": 126764,
+  "by_source": {
+    "enron": 60000,
+    "spamassassin_easy_ham": 2477,
+    "spamassassin_hard_ham": 249,
+    "spamassassin_spam": 496,
+    "spamassassin_spam_2": 1371,
+    "phishing": 762,
+    "uci_sms_ham": 4827,
+    "uci_sms_spam": 747,
+    "nus_sms": 55835
+  },
+  "elapsed_seconds": 107
+}

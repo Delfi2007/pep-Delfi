@@ -1,0 +1,6 @@
+{
+  "voice_note_wer": 0.4625,
+  "conversations_scored": 600,
+  "conversations_with_missing_note": 26,
+  "method": "word error rate over each conversation's full text (robust to a missing voice note)"
+}

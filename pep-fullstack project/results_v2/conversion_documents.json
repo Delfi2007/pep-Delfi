@@ -1,0 +1,13 @@
+{
+  "exact_message_recovery_rate": {
+    "A": {
+      "pdf": 1.0,
+      "docx": 1.0
+    },
+    "B": {
+      "pdf": 1.0,
+      "docx": 1.0
+    }
+  },
+  "elapsed_seconds": 175
+}

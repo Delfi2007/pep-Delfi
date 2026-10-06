@@ -35,3 +35,9 @@ Thumbs.db
 # Local server logs
 backend/*.log
 frontend/*.log
+
+# ML v2 — downloaded/generated data (~8 GB), caches, model weights and run logs
+.cache/
+data_v2/
+models_v2/
+results_v2/*.log
