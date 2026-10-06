@@ -22,20 +22,20 @@ an ML score is a lead for an officer to review, never a finding.
 Official **PAN 2012 Sexual Predator Identification** test set — 218,702 users, 254 predators.
 Full tables: [results/RESULTS.md](results/RESULTS.md).
 
-| Model | Precision | Recall | F1 | **F0.5** | ROC-AUC |
-|---|---|---|---|---|---|
-| DistilBERT (fine-tuned) | 0.966 | 0.661 | 0.785 | **0.884** | 0.933 |
-| Ensemble (DistilBERT + TF-IDF LR) | 0.912 | 0.614 | 0.734 | 0.832 | 0.900 |
-| TF-IDF + Complement Naive Bayes | 0.905 | 0.602 | 0.723 | 0.823 | 0.975 |
-| TF-IDF + Complement NB (PAN12 + synthetic) | 0.888 | 0.563 | 0.689 | 0.796 | 0.976 |
-| Char n-gram TF-IDF + Logistic Regression | 0.915 | 0.508 | 0.653 | 0.789 | 0.793 |
-| TF-IDF + Logistic Regression (PAN12 + synthetic) | 0.855 | 0.579 | 0.690 | 0.780 | 0.858 |
-| TF-IDF + Logistic Regression | 0.912 | 0.492 | 0.639 | 0.779 | 0.823 |
-| TF-IDF + Linear SVM (calibrated) | 0.868 | 0.516 | 0.647 | 0.763 | 0.821 |
-| Behavioural signals + Gradient Boosting | 0.779 | 0.319 | 0.453 | 0.605 | 0.764 |
+| Model | Accuracy | Balanced Acc. | Precision | Recall | F1 | **F0.5** | ROC-AUC |
+|---|---|---|---|---|---|---|---|
+| DistilBERT (fine-tuned) | 0.9996 | 0.831 | 0.966 | 0.661 | 0.785 | **0.884** | 0.933 |
+| Ensemble (DistilBERT + TF-IDF LR) | 0.9995 | 0.807 | 0.912 | 0.614 | 0.734 | 0.832 | 0.899 |
+| TF-IDF + Complement Naive Bayes | 0.9995 | 0.801 | 0.905 | 0.602 | 0.723 | 0.823 | 0.975 |
+| TF-IDF + Complement NB (PAN12 + synthetic) | 0.9994 | 0.781 | 0.888 | 0.563 | 0.689 | 0.796 | 0.976 |
+| Char n-gram TF-IDF + Logistic Regression | 0.9994 | 0.754 | 0.915 | 0.508 | 0.653 | 0.788 | 0.793 |
+| TF-IDF + Logistic Regression (PAN12 + synthetic) | 0.9994 | 0.789 | 0.855 | 0.579 | 0.690 | 0.780 | 0.858 |
+| TF-IDF + Logistic Regression | 0.9994 | 0.746 | 0.912 | 0.492 | 0.639 | 0.779 | 0.823 |
+| TF-IDF + Linear SVM (calibrated) | 0.9993 | 0.758 | 0.868 | 0.516 | 0.647 | 0.763 | 0.821 |
+| Behavioural signals + Gradient Boosting | 0.9991 | 0.659 | 0.779 | 0.319 | 0.453 | 0.605 | 0.764 |
+| *Baseline: flag nobody* | *0.9988* | *0.500* | *—* | *0.000* | *0.000* | *0.000* | *0.500* |
 
-Accuracy is ≥ 0.999 for every model and uninformative (99.88% of users are not predators). F0.5 is
-the official PAN12 metric. The best published PAN 2012 system scored about 0.93.
+**How to read accuracy:** 99.88% of users are not predators, so a model that flags nobody already scores 0.9988 (baseline row). High accuracy here is caused by class imbalance, not overfitting — every number is measured on the official PAN12 *test* set, which no model saw during training. **Balanced accuracy** (average of the predator and non-predator detection rates) is the fair accuracy figure. F0.5 is the official PAN12 metric; the best published PAN 2012 system scored about 0.93.
 
 **On the ACPIA demo case** (“Op Riverbank”, with its answer key in `data/case_manifest.json`):
 all 9 models rank the real offender, `swim_coach_rk`, first. Most also flag innocent people at the
